@@ -1,6 +1,6 @@
 # EOD-Enhancement-Submod
 
-Improves AI, adds events and decisions for difficulty settings and balance
+Improves AI, adds events and decisions for difficulty settings and balance in the Edge of Darkness mod for Darkest Hour: Hearts of Iron
 
 Installation Instructions:
 Clone your EoD folder, extract or copy-paste this over it
