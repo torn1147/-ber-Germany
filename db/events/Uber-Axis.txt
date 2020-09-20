@@ -1,0 +1,119 @@
+############################################
+# 12101 GER Axis Difficulty Settings
+# 12102 GER Post-Bitter Peace Naval AI Switch
+# 12104 GER German IC Boost
+# 12105 GER Japanese IC Boost
+############################################
+
+event = {
+	id = 12101
+	random = no
+	
+	TAG = { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BHU BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR DOM EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HAI HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NEP NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TIB TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U05 U06 U08 U09 U10 U11 U12 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U25 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U36 U37 U39 U40 U41 U42 U43 U44 U45 U46 U47 U48 U49 U50 U51 U52 U57 U58 U59 U60 U62 U67 U70 U71 U72 U73 U74 U75 U76 U77 U78 U79 U80 U81 U82 U83 U84 U85 U86 U87 U88 U89 U90 U91 U92 U93 U94 U95 U96 U97 U98 U99 UCH UER UGS UPE UTC }
+
+	decision = {
+
+	}
+	
+	decision_trigger = {
+		ai = no 
+#		ai = GER 
+#		ai = JAP 
+	}
+	
+	date = { day = 2 month = january year = 1933 }
+	offset = 2
+	deathdate = { day = 29 month = december year = 1999 }
+	
+	trigger = { 
+
+	}
+
+	name = "Difficulty Settings for Axis Powers" #12101NAME
+	desc = "Recommended to buff both if you want an interesting time playing as an Allied Power" #12101DESC
+	style = 2
+	picture = "reichglory"
+	
+
+	action	 = {
+		name = "Buff Germany and Japan" #12101a
+		command = { type = trigger which = 12104 } 
+		command = { type = trigger which = 12105 } 
+	}
+
+	action	 = {
+		name = "Buff Germany" #12101b
+		command = { type = trigger which = 12104 } 
+	}
+
+	action	 = {
+		name = "Buff Japan" #12101c
+		command = { type = trigger which = 12105 } 
+	}
+
+	action	 = {
+		name = "No Changes(Will likely end in German defeat by '44 or '45)" #12101D
+	}
+}
+
+event = {
+	id = 12102
+	name = "12102NAME" 
+	desc = "12102DESC" 
+
+	country = GER
+	
+	date = { day = 2 month = january year = 1933 }
+	offset = 2
+	deathdate = { day = 29 month = december year = 1999 }
+
+	trigger = {
+			ai = yes
+			owned = { province = 572 data = -3 } #Moscow
+	}
+
+	action = {
+		name = "12102A" #Switches Naval AI Focus on for Sealion
+		command = { trigger = { ai = yes } type = ai which = "switch/GER_Build_Navy.ai" }
+}
+
+
+}
+
+event = {
+	id = 12104
+	random = no
+	name = "12104NAME" 
+	desc = "12104DESC" 
+
+	country = GER
+
+	trigger = {
+			ai = yes
+	}
+
+	action = {
+		name = "12104a" #Adds IC
+		command = { type = free_ic value = 50 } 
+}
+
+}
+
+event = {
+	id = 12105
+	random = no
+	name = "12105NAME" 
+	desc = "12105DESC" 
+
+	country = JAP
+
+	trigger = {
+			ai = yes
+	}
+
+	action = {
+		name = "12105a" #Adds IC
+		command = { type = free_ic value = 50 } 
+}
+
+}

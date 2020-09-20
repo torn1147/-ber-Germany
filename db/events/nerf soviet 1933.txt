@@ -1,0 +1,25 @@
+###############
+### 12103  SOV  IC build penalty
+################
+event = {
+	id = 12103
+	country = SOV
+	random = no
+
+	trigger = { ai = no } # Only for players
+
+	name = "Soviet nerf for multiplayer" #Soviet nerf for multiplayer
+	desc = "IC build penalty" #IC build penalty
+	style = 2
+	picture = "Four_Year"
+
+	date = { day = 2 month = january year = 1933 }
+	offset = 2
+	deathdate = { day = 29 month = december year = 1999 }
+	
+	action = {
+		name = "A neccesary sacrifice" # A neccesary sacrifice
+		command = { type = building_prod_mod which = ic value = -10 }
+	}
+
+}
