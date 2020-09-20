@@ -1,6 +1,8 @@
 # EOD-Enhancement-Submod
 
-Changelog:
+Improves AI, adds events and decisions for difficulty settings and balance
+
+Full Changelog:
 -Added decision for Axis difficulty settings
 -Added event to nerf Soviet IC building bonus if human in 1933 scenario
 -Added a 1936 scenario, all events should be firing properly
