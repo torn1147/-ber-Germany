@@ -8,7 +8,7 @@ event = {
 
 	trigger = { ai = no } # Only for players
 
-	name = "Soviet nerf for multiplayer" #Soviet nerf for multiplayer
+	name = "Soviet nerf for players" #Soviet nerf for players
 	desc = "IC build penalty" #IC build penalty
 	style = 2
 	picture = "Four_Year"
