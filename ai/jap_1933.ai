@@ -334,7 +334,7 @@ military = {
 
 
 	#### Divisions etc...
-   	infantry     = 58 
+   	infantry     = 60 
 	cavalry 		= 5
 	motorized 		= 0
 	mechanized 		= 0
@@ -346,17 +346,17 @@ military = {
    	garrison    = 0 
     hq 				= 5
 	militia 		= 0
-#				73 %
+#				70 %
    	interceptor    = 0 
    	multi_role     = 5 
 	cas 			= 0
 	strategic_bomber = 0
-   	tactical_bomber = 10 
+   	tactical_bomber = 8 
    	naval_bomber   = 0 
 	transport_plane = 0
 	flying_bomb 	= 1
 	flying_rocket 	= 1
-#				17 %
+#				15 %
 	battleship 		= 0
    	carrier     = 10 
 	escort_carrier	= 0
