@@ -58,13 +58,15 @@ event = {
 
 event = {
 	id = 12102
+	random = no
 	name = "12102NAME" 
 	desc = "12102DESC" 
 
 	country = GER
+	persistent = yes
 	
-	date = { day = 2 month = january year = 1933 }
-	offset = 2
+	date = { day = 2 month = january year = 1943 }
+	offset = 180
 	deathdate = { day = 29 month = december year = 1999 }
 
 	trigger = {
