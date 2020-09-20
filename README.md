@@ -2,6 +2,9 @@
 
 Improves AI, adds events and decisions for difficulty settings and balance
 
+Installation Instructions:
+Clone your EoD folder, extract or copy-paste this over it
+
 Full Changelog:
 -Added decision for Axis difficulty settings
 -Added event to nerf Soviet IC building bonus if human in 1933 scenario
