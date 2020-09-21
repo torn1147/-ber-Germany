@@ -351,8 +351,8 @@ military = {
    	multi_role     = 5 
 	cas 			= 0
 	strategic_bomber = 0
-   	tactical_bomber = 8 
-   	naval_bomber   = 0 
+   	tactical_bomber = 4 
+   	naval_bomber   = 4 
 	transport_plane = 0
 	flying_bomb 	= 1
 	flying_rocket 	= 1
@@ -469,11 +469,6 @@ technology = {
 		# Air Doctrines
 		9060 9070 9080 9090 9100 9110 9120 9130 9200 9230 9240 9250 9260 9270 9280 9300 9330 9340 9350 9360 9370 9380 9390 9400 9410 9420
 				
-		# Nuclear
-		5470 5480 5490
-		
-		# Test and Research
-		5560 7550 7560 7570 7580 7590
 	} 
 	ignore 	= {
 		# Airborne Infantry
@@ -687,7 +682,7 @@ air_marshal = {
 	destructionriskthreashold 	= 0.2		# when to fear a divisiopn might be destroyed
 
 	# desirability is a multiplier used when calcualting the mission desirability
-	airsuperioritydesirability 		= 30.0
+	airsuperioritydesirability 		= 25.0
 	groundattackdesirability 		= 40.0
 	inderdictiondesirability 		= 20.0
 	logisticalstrikedesirability 	= 2.0
