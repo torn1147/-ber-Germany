@@ -160,7 +160,7 @@ country = {
 		# Exp. Rocket
 		5560
 		# Great War Land Doctrines (entente)
-		6500 6510 6530 6580 6600 6610 6680 6620 6630 6640 6650 6660 6670 6540 6910
+		6500 6510 6530 6580 6600 6610 6680 6620 6630 6640 6650 6660 6670 6540 6910 7690
 		# Land Doctrines (Light Infantry line)
 		6390 6400 6420
 		# Hospital System 

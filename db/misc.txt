@@ -84,9 +84,9 @@ economy = {
 # Added extra upgrade progress to units in supply. Added daily progress to all units in supply that can upgrade is equal to Cur_STR/(Max_STR * THIS). Added value is not affected by any other upgrade modifiers. Set to 0 to disable this functionality.
     0 #0	
 # Nationalism starting value
-	5 #15
+	1 #15
 # Nationalism per MP (added to stating value)
-	1.0 # 0.0
+	5.0 # 0.0
 # Max unmodified nationalism = starting + MP*mod + added by events or partisan funds
 	20 # 30
 # Max base province revolt risk (before applying suppression bonus)
@@ -98,9 +98,9 @@ economy = {
 # TC Load from undeployed brigades (multiplied on top of the division cost)
 	0.3
 # If units can be sold/transferred to non allied countries. 0 = No, 1 = Yes (player could offer units to all countries and ask for units from allied countries), 2 = Yes (player could offer and ask for units from all countries) 
-	1 #1
+	2 #1
 # If Blue Prints can be sold to non-allied countries. 0 = No, 1 = Yes (player could offer BP), 2 = Yes (player could offer and ask for BPs) 	0 #0
-	1 #0 (WIF)
+	2 #0 (WIF)
 # If owned (!) provinces can be sold/transferred to non-allied countries. 0 = No, 1 = Yes (player could offer such provinces), 2 = Yes (player cold offer and ask for such provinces)
 	2 #0
 # Allow non-owned (just controlled) provinces to be transferred to allied(!) countries if provinces are cores for that ally. 1 - Enabled, 0 - Disabled (default):	
@@ -223,9 +223,9 @@ intelligence = {
 
 diplomacy = {
 # Days between diplomatic missions in a country. Do not use fractions
-	15 #8
+	4 #8
 # Days between policy slider moves
-	720 #360
+	360 #360
 # Requirement for "Influence Nation" to affect domestic sliders: Our IC >= Target IC * X
 	1.6 # 2.0
 # Use minister personality value when replacing ministers: 0 = disabled; 1 = enabled
@@ -288,9 +288,9 @@ combat = {
 # Combat Modifier: Multiple Combat Mod
 	-0.37
 # Combat Modifier: Offensive Combined Arms Bonus
-	0.0
+	0.20
 # Combat Modifier: Defensive Combined Arms Bonus
-	0.0
+	0.15
 # Combat Modifier: Surprise Mod
 	-0.4
 # Combat Modifier: Land Exceeding Max Command Limit Mod
@@ -308,7 +308,7 @@ combat = {
 # Combat Modifier: Coastal Fort Multiplier ( value * fort level)
 	-0.05 # -0.035 # -0.07
 # Combat Modifier: Penalty for hard (Softness < 50%) units attacking urban provinces
-	-0.25 # -0.10 (WIF)
+	-0.50 # -0.10 (WIF)
 # Combat Modifier: Dissent Multiplier
 	-0.005
 # Combat Modifier: Default Supply Problems Mod - Land
@@ -539,7 +539,7 @@ combat = {
 # Navy vs. Subs - Extra ORG damage multiplier to subs in combat vs naval units. 1 = no extra damage [multiplier]
 	6.0 #3.0
 # Navy vs. Subs - Extra STR damage multiplier to subs in combat vs naval units. 1 = no extra damage [multiplier]
-	1.0 #3.0
+	3.0 #3.0
 # Pure sub stacks detection modifier ( 0 = subs will never be detected, 1.0 - no change )
 	0.5 #1.0
 # AA - Min inflicted ORG damage - starting value, it is modified before being used.
@@ -587,7 +587,7 @@ combat = {
 # Days in offensive supply
 	30 #30
 # Minister bonuses (att, def, mor, org) from brigades and divisions. 1 = use division bonus if any, else brigade (max if more then 1); 2 = Use average of all; 3 = use Sum of all; 4 = Use min; 5 = use Max
-	1
+	3
 # Organization regain bonus for units on friendly soil. It depends on infra and is capped (see below) (infra*2 + THIS <= cap). [0.0 = 0%, 1.0 = 100%]
 	0.2 #0.1 (WIF)
 # Organization regain bonus for units on friendly soil cap.
@@ -665,7 +665,7 @@ combat = {
 # Recalculate land units arrival times when not in combat (for units not in "Sync. arrival time" mode). 0 - Disabled, 1 - recalculate each hour, 2 - recalculate once on 2 hours and so on.
 	1 #0
 # "Synchronize arrival" time modifier - Players only! (Stack arrival time = slowest unit move time * THIS).
-	2.0 #1.0
+	1.0 #1.0
 # "Synchronize arrival" time modifier - AI only! (Stack arrival time = slowest unit move time * THIS).
 	1.0 #1.0
 # Recalculate arrival times for units in "Sync. arrival time" mode after combat/bombardment. NOTE: enabling this could de-synchronize arrival times! 0 - Disabled, 1 - Enabled for players only, 2 - Enabled for players and AI.
@@ -1056,7 +1056,7 @@ research = {
 
 trade = {
 # Days between trade offers to a country. Do not use fractions!
-	8 #8
+	4 #8
 # Delay in days on each game start/reload before allowing any new trades (AI, auto-trade and Diplomacy). Should be at least 2 days!
 	2 #0
 # Limit new trade deals to allies, preferred countries (AI), current trade partners or neighbors for X days on every game start or reload.	
@@ -1282,15 +1282,15 @@ mod = {
 # UI - Enable pictures instead of icons for naval brigades in the production panel: 0 - use icons for naval brigades, 1 - use pictures for all brigade types
 	1 #0
 # Set buildings to be buildable only in provinces (from game map view). 0 – Disable, 1 - Enable (Ports, Air Bases, Nuclear Reactors, Rocket Test Sites), 2 - Enable ( 1 +  provincial AA and Radars)
-	0 #0
+	2 #0
 # Unit modifiers statistics page - switch to new style when more then THIS unit types are used per group (land/navy/air)
 	15 #15
 # Allow console cheats in multiplayer games: 0 - Disable cheats, 1 - Allow cheats
 	0 #0
 # Disallow manual change of assigned transports and escorts to a convoy (to prevent player exploits, especially in MP games). 0 - Manual change allowed, 1 - Manual change disallowed
-	0 #0
+	1 #0
 # Include MP added by attached to the unit brigades in MP cost calculation for repair of damaged units. 0 - Disabled (unit MP used as MP cost base), 1 - Enabled (unit MP + MP for all attachments used as MP cost base) 
-	0 #0
+	1 #0
 # Disallow detachment or attachment of brigades to units that are not at least of THIS percentage of their max STR [0.0 - 100.0]. 0.0 - allowed to units at any STR, 100.0 - allowed only to units at max STR. Note: Applied to players only.
 	0.0 #0.0
 }
