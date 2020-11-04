@@ -617,7 +617,7 @@ garrison = {
 	}
 }
 front = { 
-	recklessness 		= 0 # 0-3
+	recklessness 		= 1 # 0-3
 	distrib_vs_ai 		= offensive
 	distrib_vs_human 	= op_defensive
 
@@ -682,7 +682,7 @@ air_marshal = {
 	destructionriskthreashold 	= 0.2		# when to fear a divisiopn might be destroyed
 
 	# desirability is a multiplier used when calcualting the mission desirability
-	airsuperioritydesirability 		= 25.0
+	airsuperioritydesirability 		= 30.0
 	groundattackdesirability 		= 40.0
 	inderdictiondesirability 		= 20.0
 	logisticalstrikedesirability 	= 2.0

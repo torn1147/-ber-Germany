@@ -466,19 +466,19 @@ military = {
 #				5 #19 %
 
 	#### Brigades
-	artillery			= 30	#30
-	sp_artillery			= 6		#8
-	cavalry_brigade	= 2			#0 #Cav Brigade
-	sp_anti_air	= 2				#0
-   	medium_armor			= 2		#0 #Med. Tank
-   	tank_destroyer		= 2		#0
-   	light_armor_brigade	= 2		#0
-   	heavy_armor			= 2		#5
-	super_heavy_armor	= 1		#0
-	armored_car			= 2		#0
-   	anti_air			= 5		#0
-   	police				= 8		#1
-	engineer			= 11	#5
+	artillery			= 50	#30
+	sp_artillery			= 0		#8
+	cavalry_brigade	= 0			#0 #Cav Brigade
+	sp_anti_air	= 0				#0
+   	medium_armor			= 0		#0 #Med. Tank
+   	tank_destroyer		= 0		#0
+   	light_armor_brigade	= 0		#0
+   	heavy_armor			= 0		#5
+	super_heavy_armor	= 0		#0
+	armored_car			= 10	#0
+   	anti_air			= 0		#0
+   	police				= 0		#1
+	engineer			= 15	#5
 #			75	#49
 
 	cag 				= 100
