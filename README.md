@@ -24,5 +24,7 @@ Full Changelog:
 -Nerfed NAV attack, but extended their range significantly
 -Buffed HARM and ShARM
 -Made Public Works and Money Devaluation more viable
+-Fixed the Uber Axis triggers - mp triggers still need to be defined
+-Fixed the 33 scenario conflicts regarding province ownership in Philippines, East Hebei Autonomous Council, Sinkiang/Turkestan and Newfoundland
 
 

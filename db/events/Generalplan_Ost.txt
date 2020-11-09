@@ -5100,7 +5100,7 @@ event = {
 		command = { type = secedeprovince which = JAP value = 1541 when = 2 } #Sakhalin
 		#command = { type = secederegion which = JAP value = "Far East Siberia" when = 2 }
 		command = { type = secederegion which = JAP value = Irkutsk when = 2 }	
-		command = { type = secederegion which = JAP value = Zabaikalye when = 2 }	
+		command = { type = secederegion which = JAP value = Transbaikalye when = 2 }	
         command = { type = secedearea which = JAP value = Yakutsk when = 2 }
         command = { type = secedearea which = JAP value = Magadan when = 2 }
 		command = { type = secedearea which = JAP value = Kamchatka when = 2 }

@@ -42,12 +42,12 @@ country = {
   chiefofnavy            = { type = 6121 id = 99109 }
   chiefofair             = { type = 6121 id = 99110 }  
   # ###################### 
-  nationalprovinces    = { 2136 2137 2138
-						 } 
-  ownedprovinces       = { 2136 2137 2138
-						 } 
-  controlledprovinces  = { 2136 2137 2138
-						 } 
+  nationalprovinces    = { 2136 2137 2138 }
+						  
+  ownedprovinces       = { 2136 2137 2138 }
+						 
+  controlledprovinces  = { 2136 2137 2138 }
+						 
   # ######################     
   # Commonwealth Tech '14 
   # UK 1914 techs

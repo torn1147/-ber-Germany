@@ -1282,15 +1282,15 @@ mod = {
 # UI - Enable pictures instead of icons for naval brigades in the production panel: 0 - use icons for naval brigades, 1 - use pictures for all brigade types
 	1 #0
 # Set buildings to be buildable only in provinces (from game map view). 0 – Disable, 1 - Enable (Ports, Air Bases, Nuclear Reactors, Rocket Test Sites), 2 - Enable ( 1 +  provincial AA and Radars)
-	2 #0
+	0 #0
 # Unit modifiers statistics page - switch to new style when more then THIS unit types are used per group (land/navy/air)
 	15 #15
 # Allow console cheats in multiplayer games: 0 - Disable cheats, 1 - Allow cheats
 	0 #0
 # Disallow manual change of assigned transports and escorts to a convoy (to prevent player exploits, especially in MP games). 0 - Manual change allowed, 1 - Manual change disallowed
-	1 #0
+	0 #0
 # Include MP added by attached to the unit brigades in MP cost calculation for repair of damaged units. 0 - Disabled (unit MP used as MP cost base), 1 - Enabled (unit MP + MP for all attachments used as MP cost base) 
-	1 #0
+	0 #0
 # Disallow detachment or attachment of brigades to units that are not at least of THIS percentage of their max STR [0.0 - 100.0]. 0.0 - allowed to units at any STR, 100.0 - allowed only to units at max STR. Note: Applied to players only.
 	0.0 #0.0
 }
