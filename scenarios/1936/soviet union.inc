@@ -2080,7 +2080,20 @@ landunit =
        type     = cavalry
 	   model    = 8
       } 
-	} 	
+
+    landunit =  
+    {  location = 572  
+      name     = "Stalin and Staff"  
+      id       = {  type = 10848 id =  8505  }  
+     Division =
+     { id       = {  type = 10848 id = 8506  } 
+       name     = "Stalin and Staff" 
+       type     = d_10
+       model    = 0
+       experience = 100
+       locked = yes
+      }
+    } 	
 
 
 	

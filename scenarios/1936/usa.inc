@@ -302,6 +302,20 @@ inventions = { 3000027 }
     chiefofarmy            = {  type = 9 id = 240008  }  
     chiefofnavy            = {  type = 9 id = 240121  }  
     chiefofair             = {  type = 9 id = 240010  }  
+    
+    landunit =  
+    {  location = 1809  
+      name     = "Roosevelt and Staff"  
+      id       = {  type = 14800 id = 600  }  
+      Division =  
+      {  id   = {  type = 14800 id = 514 }  
+        name = "Roosevelt and Staff"
+		    type     = d_10
+       model    = 0
+       experience = 100
+       locked   = yes 
+       } 
+     }
     landunit =  
     {  location = 1789  
       name     = "I Corps"  
@@ -1867,15 +1881,6 @@ inventions = { 3000027 }
 		cost  = 0.1  
 		id    = {  type = 14800 id = 513  }  
 		date  = {  year = 1936 month = may day = 1  }  
-	}
-	division_development = {
-		name  = "Submarine Division 20"  
-		type  = submarine  
-		model = 4  
-		cost  = 0.1  
-		id    = {  type = 14800 id = 514  }  
-		date  = {  year = 1936 month = june day = 1  }  
-	}
-	
+	}	
 }  
   
