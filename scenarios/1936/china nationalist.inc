@@ -1896,7 +1896,6 @@ landunit =
       }
     }
 
-  }
 	# Name = "60th Corps" #Contains units from Yunnan 10th Route Army
 
 	# German Trained
