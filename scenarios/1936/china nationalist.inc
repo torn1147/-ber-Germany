@@ -1882,8 +1882,21 @@ inventions = { 3000027 }
 	   strength  = 60
        model     = 3
       }
-
+landunit = 
+   {  id       = {  type = 22000 id =  958 } 
+     name     = "Kai-shek and Staff" 
+     location = 1297 #Chongjding
+     Division =
+     { id       = { type = 22000 id = 957 } 
+       name     = "Kai-shek and Staff" 
+       type     = d_10
+       model    = 0
+       experience = 100
+       locked = yes
+      }
     }
+
+  }
 	# Name = "60th Corps" #Contains units from Yunnan 10th Route Army
 
 	# German Trained

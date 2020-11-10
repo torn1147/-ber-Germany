@@ -1247,7 +1247,7 @@ landdivision = { dormant = yes id = { type = 14500 id = 2043 }  name = "17. Fest
 landdivision = { dormant = yes id = { type = 14500 id = 2044 }  name = "18. Festung Europa"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
 landdivision = { dormant = yes id = { type = 14500 id = 2045 }  name = "19. Festung Europa"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
 landdivision = 
-     { dormant = yes  id       = {  type = 14500 id = 1080  } 
+     {  id       = {  type = 14500 id = 1080  } 
        name     = "Hitler and Staff" 
        type     = d_10
        model    = 0
