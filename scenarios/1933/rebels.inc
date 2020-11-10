@@ -4,7 +4,7 @@
   
   nationalprovinces    = {  } 
   ownedprovinces       = {  } 
-  controlledprovinces  = { 1280 1276 1273 1240 } 
+  controlledprovinces  = {  } 
   capital	= 1280
 
   #Notice: For balance reason (due to lack of event chain to simulate Soviet intervention against rebels and inability to have rebel vs rebel fighting
