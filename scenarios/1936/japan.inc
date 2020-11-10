@@ -214,6 +214,19 @@ country = {
 	
 	
 	### Japan Land OOB ### 
+  	landunit = {  
+		id       = {  type = 13016 id =  2023 } 
+     		name     = "Hirohito and Staff" 
+     		location = 1552 #Tokyo
+    		Division =
+     		{ id       = {  type = 13016 id = 2024  } 
+      		 name     = "Hirohito and Staff" 
+      		 type     = d_10
+      		 model    = 0
+       		experience = 100
+      		 locked   = yes 
+      }
+    }
 	
 	landunit = {
 		id       = {  type = 13016 id = 1  } 

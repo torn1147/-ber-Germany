@@ -259,6 +259,19 @@
 		    brigade_model    = 2 		   
           }
         }
+ landunit = 
+   {  id       = {  type = 23500 id =  1010 } 
+     name     = "Mussolini and Staff" 
+     location = 419 #Rome
+     Division =
+     { id       = { type = 23500 id = 1011 } 
+       name     = "Mussolini and Staff" 
+       type     = d_10
+       model    = 0
+       experience = 100
+       locked   = yes 
+      }
+   }
        landunit =
        {  id       = {  type = 23500 id = 3  }
          location = 398

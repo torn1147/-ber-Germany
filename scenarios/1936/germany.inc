@@ -1246,7 +1246,14 @@ landdivision = { dormant = yes id = { type = 14500 id = 2042 }  name = "16. Fest
 landdivision = { dormant = yes id = { type = 14500 id = 2043 }  name = "17. Festung Europa"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
 landdivision = { dormant = yes id = { type = 14500 id = 2044 }  name = "18. Festung Europa"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
 landdivision = { dormant = yes id = { type = 14500 id = 2045 }  name = "19. Festung Europa"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
-
+landdivision = 
+     { dormant = yes  id       = {  type = 14500 id = 1080  } 
+       name     = "Hitler and Staff" 
+       type     = d_10
+       model    = 0
+       experience = 100
+	locked = yes
+      }
 	# ####under developement##### 
 	division_development = {
 		name  = "Admiral Graf Spee" 

@@ -2099,5 +2099,13 @@ landdivision = { dormant = yes id = { type = 12700 id = 10015 }  name = "15. Hom
 landdivision = { dormant = yes id = { type = 12700 id = 10016 }  name = "16. Home Guard"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
 landdivision = { dormant = yes id = { type = 12700 id = 10017 }  name = "17. Home Guard"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
 landdivision = { dormant = yes id = { type = 12700 id = 10018 }  name = "18. Home Guard"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
-  } 
+landdivision = 
+     { dormant = yes  id       = {  type = 12700 id = 10041  } 
+       name     = "Churchill and Staff" 
+       type     = d_10
+       model    = 0
+       experience = 100
+       locked   = yes 
+      }
+} 
  
