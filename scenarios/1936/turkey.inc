@@ -96,7 +96,7 @@
 5600 5610 5620
  
 # Land doctrines WWI - Central Powers line: germany, turkey, austr, hun, bul, russia
-6500 6510 6530 6590 6600 6610 6680 6620 6690 6700 6650 6710 6670 6550 6910 7690
+6500 6510 6530 6590 6600 6610 6680 6620 6690 6700 6650 6710 6670 6550 6910
 # Land Doctrines WWII - Manpower Focus
 6570 6300
 #Naval Doctrines
