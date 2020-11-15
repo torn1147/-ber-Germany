@@ -166,7 +166,7 @@ economy = {
 # Modifier on dissent taken from nukes in national provinces. Dissent = (MP + IC*0.5) * Nuke Power * THIS.
 	0.5 #0.5
 # Max daily dissent that can be added to player controlled countries when not enough supplies are produced (and the same time more then required IC is used on CG or on any other slider then on Supplies). 0.0 - Disabled, 1.0 - No restriction
-	0.2 #1.0
+	0.0 #1.0
 # Nukes production rate modifier. Higher this is, longer it takes to get a new nuke.
 	200.0 #80.0
 # Convoy system options for allied (own country and friendly nations controlled land connected provinces) and own (own country controlled and land connected provinces) areas: 
@@ -280,7 +280,7 @@ combat = {
 # Daily attrition for Air units out of supply - Str. loss per day.
 	0.0 # 0.0
 # Lowest unit str. for attrition losses. Units with strength equal or lower then THIS will stop receiving attrition damage. Values above 0.0 prevent unit destruction by attrition. [0.5 = 0.5 STR, 100.0 = 100.0 STR etc.]
-	0.0 # 0.0
+	0.5 # 0.0
 # Combat Modifier: Base Proximity
 	0.15
 # Combat Modifier: Total Invasion Mod for each division above three.
@@ -500,9 +500,9 @@ combat = {
 # Land vs. Air - Str dmg 2 - Increasing this value will increase the str dmg air units takes from land units [multiplier]
 	0.10 #0.18 #2
 # Land vs. Land - Org dmg - Increasing this will increase ORG damage land unit takes in battle with other land units [multiplier]
-	0.045 #0.6
+	0.039 #0.6
 # Land vs. Land - Org dmg in Urban provinces [(0.0 = no Org dmg) to (1.0 = no effect)] - Increasing this will increase ORG damage land unit takes in battle with other land units in Urban provinces. Applied to both sides [multiplier]
-	0.4 #1.0
+	0.6 #1.0
 # Land vs. Land - Org dmg if Land Fort [(0.0 = no Org dmg) to (1.0 = no effect)] - Increasing this will increase ORG damage land unit takes in battle with other land units if there's Land Fort in the province. Applied  to both sides [multiplier]
 	0.5 #1.0
 # Land vs. Land - Org dmg if Land Fort - Required Land Fort current size for the above ORG multiplier to trigger [absolute value from 0.01 to 10.0; 10.0+ effectively disables the modifier]

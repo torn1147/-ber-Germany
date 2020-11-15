@@ -1573,35 +1573,5 @@
 		new_model = no
 	} 
 
-######33 shit####
-landdivision = { dormant = yes id = { type = 23500 id = 1008 }  name = "133a Divisione 'Littorio'"  type = light_armor  model = 0  strength = 10 }
-landdivision = { dormant = yes id = { type = 23500 id = 1009 }  name = "133a Divisione 'Littorio'"  type = motorized  model = 0  strength = 85 }
-         
-
-landdivision = 
-     {   dormant = yes 
-         id       = {  type = 23500 id = 1012  } 
-        name     = "Divisione 'Benghazi'" 
-        type     = garrison 
-	model    = 3
-        locked   = yes
-      } 
- landdivision = 
-     {   dormant = yes 
-         id       = {  type = 23500 id = 1013  } 
-        name     = "Divisione 'Tripoli'" 
-        type     = garrison 
-	model    = 3
-        locked   = yes 
-      } 
- landdivision = 
-     {   dormant = yes 
-         id       = {  type = 23500 id = 1014  } 
-        name     = "Divisione 'Tobruk'" 
-        type     = garrison 
-	model    = 3
-        locked   = yes
-      } 
-
 
 }
