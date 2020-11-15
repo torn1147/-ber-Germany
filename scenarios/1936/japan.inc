@@ -2024,6 +2024,7 @@ country = {
 		cost = 0.1
 	}
 
+####33 shit#####
 	landdivision = { dormant = yes id = { type = 13016 id = 2000 } name = "1 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
 	landdivision = { dormant = yes id = { type = 13016 id = 2001 } name = "22 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
 	landdivision = { dormant = yes id = { type = 13016 id = 2002 } name = "2 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
@@ -2046,6 +2047,43 @@ country = {
 	landdivision = { dormant = yes id = { type = 13016 id = 2019 } name = "19 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
 	landdivision = { dormant = yes id = { type = 13016 id = 2020 } name = "20 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
 	landdivision = { dormant = yes id = { type = 13016 id = 2021 } name = "21 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2022 } name = "Teishin-Shudan" type = paratrooper model = 0 }
+	
+	#Divisions to help AI guard Manchuria if Japan is brought into the Axis
+	
+	landdivision = { dormant = yes id = { type = 13016 id = 2029 } name = "9 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2030 } name = "10 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2031 } name = "11 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2032 } name = "12 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2033 } name = "13 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2034 } name = "14 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2035 } name = "15 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2036 } name = "16 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2037 } name = "17 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2038 } name = "18 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2039 } name = "19 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2040 } name = "20 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2041 } name = "21 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	
+	#Divisions to help AI guard Siam and Indochina
+	
+	landdivision = { dormant = yes id = { type = 13016 id = 2042 } name = "9 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2043 } name = "10 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2044 } name = "11 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2045 } name = "12 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2046 } name = "13 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2047 } name = "14 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2048 } name = "15 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2049 } name = "16 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2050 } name = "17 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2051 } name = "18 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2052 } name = "19 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2053 } name = "20 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
+	landdivision = { dormant = yes id = { type = 13016 id = 2054 } name = "21 Hendan" type = garrison model = 5 extra = artillery brigade_model = 9 locked = yes }
 
-} 
- 
+   
+	landdivision = { dormant = yes id = { type = 13016 id = 2025 } name = "121 Hendan" type = infantry model = 8 }
+	landdivision = { dormant = yes id = { type = 13016 id = 2026 } name = "122 Hendan" type = infantry model = 8 }
+	landdivision = { dormant = yes id = { type = 13016 id = 2027 } name = "123 Hendan" type = infantry model = 8 }
+	landdivision = { dormant = yes id = { type = 13016 id = 2028 } name = "124 Hendan" type = infantry model = 8 }
+ } 

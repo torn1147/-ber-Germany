@@ -2080,7 +2080,7 @@ inventions = { 3000027 }
      date  = {  year = 1936 month = january day = 13  } 
     }
 
-
+######33 stuff#####
 landdivision = { dormant = yes id = { type = 12700 id = 10001 }  name = "1. Home Guard"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
 landdivision = { dormant = yes id = { type = 12700 id = 10002 }  name = "2. Home Guard"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
 landdivision = { dormant = yes id = { type = 12700 id = 10003 }  name = "3. Home Guard"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
@@ -2099,6 +2099,127 @@ landdivision = { dormant = yes id = { type = 12700 id = 10015 }  name = "15. Hom
 landdivision = { dormant = yes id = { type = 12700 id = 10016 }  name = "16. Home Guard"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
 landdivision = { dormant = yes id = { type = 12700 id = 10017 }  name = "17. Home Guard"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
 landdivision = { dormant = yes id = { type = 12700 id = 10018 }  name = "18. Home Guard"  type = garrison model = 5 extra = artillery brigade_model = 9 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10044 }  name = "1. Norwich Garrison"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }   
+landdivision = { dormant = yes id = { type = 12700 id = 10045 }  name = "2. Norwich Garrison"  type = garrison model = 5 extra = artillery brigade_model = 8 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10046 }  name = "3. Norwich Garrison"  type = garrison model = 5 extra = light_armor_brigade brigade_model = 7 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10047 }  name = "1. Dover Garrison"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }   
+landdivision = { dormant = yes id = { type = 12700 id = 10048 }  name = "2. Dover Garrison"  type = garrison model = 5 extra = artillery brigade_model = 8 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10049 }  name = "3. Dover Garrison"  type = garrison model = 5 extra = light_armor_brigade brigade_model = 7 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10050 }  name = "1. Portsmouth Garrison"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }   
+landdivision = { dormant = yes id = { type = 12700 id = 10051 }  name = "2. Portsmouth Garrison"  type = garrison model = 5 extra = artillery brigade_model = 8 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10052 }  name = "3. Portsmouth Garrison"  type = garrison model = 5 extra = light_armor_brigade brigade_model = 7 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10053 }  name = "1. Plymouth Garrison"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }   
+landdivision = { dormant = yes id = { type = 12700 id = 10054 }  name = "2. Plymouth Garrison"  type = garrison model = 5 extra = artillery brigade_model = 8 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10055 }  name = "3. Plymouth Garrison"  type = garrison model = 5 extra = light_armor_brigade brigade_model = 7 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10056 }  name = "1. Cardiff Garrison"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }   
+landdivision = { dormant = yes id = { type = 12700 id = 10057 }  name = "2. Cardiff Garrison"  type = garrison model = 5 extra = artillery brigade_model = 8 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10058 }  name = "3. Cardiff Garrison"  type = garrison model = 5 extra = light_armor_brigade brigade_model = 7 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10059 }  name = "1. Manchester Garrison"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }   
+landdivision = { dormant = yes id = { type = 12700 id = 10060 }  name = "2. Manchester Garrison"  type = garrison model = 5 extra = artillery brigade_model = 8 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10061 }  name = "3. Manchester Garrison"  type = garrison model = 5 extra = light_armor_brigade brigade_model = 7 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10062 }  name = "1. Edinburgh Garrison"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }   
+landdivision = { dormant = yes id = { type = 12700 id = 10063 }  name = "2. Edinburgh Garrison"  type = garrison model = 5 extra = artillery brigade_model = 8 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10064 }  name = "3. Edinburgh Garrison"  type = garrison model = 5 extra = light_armor_brigade brigade_model = 7 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10065 }  name = "1. Glasgow Garrison"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }   
+landdivision = { dormant = yes id = { type = 12700 id = 10066 }  name = "2. Glasgow Garrison"  type = garrison model = 5 extra = artillery brigade_model = 8 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10067 }  name = "3. Glasgow Garrison"  type = garrison model = 5 extra = light_armor_brigade brigade_model = 7 locked  = yes } 
+landdivision = { dormant = yes id = { type = 12700 id = 10068 }  name = "1. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10069 }  name = "2. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10070 }  name = "3. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10071 }  name = "4. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10072 }  name = "5. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10073 }  name = "6. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10074 }  name = "7. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10075 }  name = "8. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10076 }  name = "9. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10077 }  name = "10. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10078 }  name = "11. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10079 }  name = "12. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10080 }  name = "13. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10081 }  name = "14. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10082 }  name = "15. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10083 }  name = "16. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10084 }  name = "17. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10085 }  name = "18. Home Guard Anti-Air"  type = garrison model = 5 extra = anti_air brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10086 }  name = "1. Stornoway Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10087 }  name = "2. Stornoway Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10088 }  name = "3. Stornoway Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10089 }  name = "1. Scapa Flow Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10090 }  name = "2. Scapa Flow Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10091 }  name = "3. Scapa Flow Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10092 }  name = "1. Inverness Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10093 }  name = "2. Inverness Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10094 }  name = "3. Inverness Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10095 }  name = "1. Aberdeen Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10096 }  name = "2. Aberdeen Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10097 }  name = "3. Aberdeen Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10098 }  name = "1. Fort William Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10099 }  name = "2. Fort William Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10100 }  name = "3. Fort William Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10101 }  name = "1. Dumfries Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10102 }  name = "2. Dumfries Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10103 }  name = "3. Dumfries Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10104 }  name = "1. Glasgow Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10105 }  name = "2. Glasgow Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10106 }  name = "3. Glasgow Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10107 }  name = "1. Edinburgh Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10108 }  name = "2. Edinburgh Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10109 }  name = "3. Edinburgh Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10110 }  name = "1. Sunderland Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10111 }  name = "2. Sunderland Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10112 }  name = "3. Sunderland Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10113 }  name = "1. Carlisle Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10114 }  name = "2. Carlisle Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10115 }  name = "3. Carlisle Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10116 }  name = "1. Hull Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10117 }  name = "2. Hull Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10118 }  name = "3. Hull Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10119 }  name = "1. Lincoln Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10120 }  name = "2. Lincoln Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10121 }  name = "3. Lincoln Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10122 }  name = "1. Manchester Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10123 }  name = "2. Manchester Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10124 }  name = "3. Manchester Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10125 }  name = "1. Sheffield Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10126 }  name = "2. Sheffield Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10127 }  name = "3. Sheffield Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10128 }  name = "1. Bristol Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10129 }  name = "2. Bristol Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10130 }  name = "3. Bristol Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10131 }  name = "1. Exeter Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10132 }  name = "2. Exeter Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10133 }  name = "3. Exeter Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10134 }  name = "1. Caernarfon Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10135 }  name = "2. Caernarfon Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10136 }  name = "3. Caernarfon Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10137 }  name = "1. Cardiff Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10138 }  name = "2. Cardiff Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10139 }  name = "3. Cardiff Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10140 }  name = "1. Plymouth Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10141 }  name = "2. Plymouth Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10142 }  name = "3. Plymouth Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10143 }  name = "1. Birmingham Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10144 }  name = "2. Birmingham Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10145 }  name = "3. Birmingham Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10146 }  name = "1. Norwich Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10147 }  name = "2. Norwich Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10148 }  name = "3. Norwich Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10149 }  name = "1. Dover Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10150 }  name = "2. Dover Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10151 }  name = "3. Dover Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10152 }  name = "1. Portsmouth Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10153 }  name = "2. Portsmouth Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10154 }  name = "3. Portsmouth Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10155 }  name = "1. Oxford Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10156 }  name = "2. Oxford Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10157 }  name = "3. Oxford Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10158 }  name = "1. London Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10159 }  name = "2. London Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10160 }  name = "3. London Home Guard"  type = militia model = 5 locked  = no }
+landdivision = { dormant = yes id = { type = 12700 id = 10161 }  name = "1. Parliament Elite Guard"  type = infantry model = 11 experience = 80 extra = medium_armor brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10162 }  name = "2. Parliament Elite Guard"  type = infantry model = 11 experience = 80 extra = medium_armor brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10163 }  name = "3. Parliament Elite Guard"  type = infantry model = 11 experience = 80 extra = medium_armor brigade_model = 3 locked  = yes }
+landdivision = { dormant = yes id = { type = 12700 id = 10164 }  name = "4. Winston's Wall"  type = armor model = 2 experience = 80 extra = sp_artillery brigade_model = 1 locked  = yes }
 landdivision = 
      { dormant = yes  id       = {  type = 12700 id = 10041  } 
        name     = "Churchill and Staff" 
