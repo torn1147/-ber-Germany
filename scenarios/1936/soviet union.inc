@@ -218,8 +218,8 @@ inventions = { 3000027 }
      defense_lobby     = 6 
      interventionism   = 4 
     } 
-	peacetime_ic_mod       = 0.70 # +0.3 from 1 event during WWII
-	wartime_ic_mod       = 0.75
+	peacetime_ic_mod       = 0.75 # +0.3 from 1 event during WWII
+	wartime_ic_mod       = 0.80
    headofstate            = {  type = 9 id = 30002  } # Stalin 
    headofgovernment       = {  type = 9 id = 30016  } # Molotov 
    foreignminister        = {  type = 9 id = 30003  } 
@@ -2095,7 +2095,6 @@ landunit =
       }
     } 	
 
-
 	
 # Air OOB
 #MVO
@@ -2770,5 +2769,773 @@ airunit = {
 		id    = { type = 10848 id = 8504 }
 		date  = { year = 1940 month = june day = 20 }
 	}
+
+
+
+#####shit added from 33###########
+ landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5554  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5555  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5556  } 
+       name     = "1. Leningrad PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5557  } 
+       name     = "2. Leningrad PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5558  } 
+       name     = "3. Leningrad PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+      } 
+
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5559  } 
+       name     = "Smolninskaya PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5560  } 
+       name     = "Oktiabrskaya PM" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5561  } 
+       name     = "2. Guards PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+       experience = 40     
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5562  } 
+       name     = "3. Guards PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+       experience = 40     
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5563  } 
+       name     = "4. Reserve PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+       experience = 20 
+       strength = 30   
+      } 
+
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5564  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5565 } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5566  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5567  } 
+       name     = "1. Stalingrad PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+       experience = 20     
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5568  } 
+       name     = "2. Stalingrad PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+       experience = 20     
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5569  } 
+       name     = "3. Stalingrad PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+       experience = 20     
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5570  } 
+       name     = "Special Cossack cavalry PMD" 
+       type     = cavalry
+       model    = 10
+       experience = 40     
+      } 	
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5571  } 
+       name     = "436-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5572  } 
+       name     = "437-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5573  } 
+       name     = "283-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5574  } 
+       name     = "438-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5575  } 
+       name     = "439-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5576  } 
+       name     = "284-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5577  } 
+       name     = "440-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5578  } 
+       name     = "441-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5579  } 
+       name     = "285-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5580  } 
+       name     = "442-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5581  } 
+       name     = "443-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5582  } 
+       name     = "286-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5583  } 
+       name     = "444-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5584  } 
+       name     = "445-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5585  } 
+       name     = "287-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5586  } 
+       name     = "446-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5587  } 
+       name     = "447-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5588  } 
+       name     = "288-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5589  } 
+       name     = "448-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5590  } 
+       name     = "449-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5591  } 
+       name     = "289-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5592  } 
+       name     = "450-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5593  } 
+       name     = "451-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5594  } 
+       name     = "290-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5595  } 
+       name     = "452-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5596  } 
+       name     = "453-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5597  } 
+       name     = "291-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5598  } 
+       name     = "454-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5599  } 
+       name     = "455-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5600  } 
+       name     = "292-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5601  } 
+       name     = "456-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5602  } 
+       name     = "457-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5603  } 
+       name     = "293-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5604  } 
+       name     = "458-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5605  } 
+       name     = "459-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5606  } 
+       name     = "294-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5607  } 
+       name     = "460-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5608  } 
+       name     = "461-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5609  } 
+       name     = "295-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5610  } 
+       name     = "462-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5611  } 
+       name     = "463-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5612  } 
+       name     = "296-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5613  } 
+       name     = "464-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5614  } 
+       name     = "465-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5615  } 
+       name     = "297-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5616  } 
+       name     = "466-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5617  } 
+       name     = "467-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5618  } 
+       name     = "298-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5619  } 
+       name     = "468-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5620  } 
+       name     = "469-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5621  } 
+       name     = "299-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5622  } 
+       name     = "470-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5623  } 
+       name     = "471-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5624  } 
+       name     = "300-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5625  } 
+       name     = "472-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5626  } 
+       name     = "473-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5627  } 
+       name     = "301-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5628  } 
+       name     = "474-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5629  } 
+       name     = "475-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5630  } 
+       name     = "302-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5631  } 
+       name     = "476-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5632  } 
+       name     = "477-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5633  } 
+       name     = "303-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5634  } 
+       name     = "478-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5635  } 
+       name     = "479-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5636  } 
+       name     = "304-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5637  } 
+       name     = "480-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5638  } 
+       name     = "481-ya Strelkovaya Diviziya" 
+       type     = infantry
+       model    = 9
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5639  } 
+       name     = "305-ya Garnizonnaya Diviziya" 
+       type     = garrison
+       model    = 5
+      }
+     landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5640  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5641  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5642  } 
+       name     = "1. Sevastopol PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9    
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5643  } 
+       name     = "2. Sevastopol PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9    
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5644  } 
+       name     = "3. Sevastopol PMD" 
+       type     = garrison
+       model    = 5   
+      } 
+     landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5645  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5646  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5647  } 
+       name     = "1. Cossack Divisions" 
+       type     = cavalry
+       model    = 10
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5648  } 
+       name     = "2. Cossack Divisions" 
+       type     = cavalry
+       model    = 10
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5649  } 
+       name     = "3. Cossack Divisions" 
+       type     = cavalry
+       model    = 10
+      }
+     landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5650  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5651  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5652  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+     landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5653  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5654  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5655  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5656  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5657  } 
+       name     = "Worker and Citizens" 
+       type     = militia
+       model    = 4
+      }
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5658  } 
+       name     = "1. Moscow PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9    
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5659  } 
+       name     = "2. Moscow PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9    
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5660  } 
+       name     = "3. Moscow PMD" 
+       type     = garrison
+       model    = 5   
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5661  } 
+       name     = "4. Moscow PMD" 
+       type     = garrison
+       model    = 5 
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5662  } 
+       name     = "5. Moscow PMD" 
+       type     = garrison
+       model    = 5 
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5663  } 
+       name     = "Yaroslavl Communist Rifle Division" 
+       type     = infantry
+       model    = 10 
+       experience = 60
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5664  } 
+       name     = "7. Guards PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+       experience = 60     
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5665  } 
+       name     = "8. Guards PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+       experience = 60     
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5666  } 
+       name     = "9. Guards PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9
+       experience = 60     
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5667  } 
+       name     = "1. Voronezh PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9    
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5668  } 
+       name     = "2. Voronezh PMD" 
+       type     = garrison
+       model    = 5
+       extra = artillery
+       brigade_model = 9    
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5669  } 
+       name     = "3. Voronezh PMD" 
+       type     = garrison
+       model    = 5   
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5670  } 
+       name     = "1st Guards Zvenigorod-Bucharest Red Banner Order" 
+       type     = paratrooper
+       model    = 1   
+      } 
+      landdivision = 
+     { dormant = yes  id       = {  type = 10848 id = 5671  } 
+       name     = "Stalingrad NKVD" 
+       type     = infantry
+       model    = 11  
+       experience = 80
+      }
 
  }	
