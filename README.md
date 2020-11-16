@@ -31,4 +31,4 @@ Full Changelog:
 -Made battles slightly quicker
 -CAGs now have limited sub fighting ability
 -Units can now attrition to death and countries get dissent if they don't produce enough supplies
-
+-Buffed MTN so they aren't just expensive infantry anymore
