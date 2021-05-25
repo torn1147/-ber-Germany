@@ -28,8 +28,8 @@
      interventionism   = 5 
     } 
    nationalprovinces      = {  1273 1274 1275 1276 1277 1278 1279 1280 1281 1282  } 
-   ownedprovinces         = {  1279 1275 1282 1274  } 
-   controlledprovinces    = {  1279 1275 1282 1274  } 
+   ownedprovinces         = { } 
+   controlledprovinces    = { } 
 # East Turkestan
  techapps = { 
 	
