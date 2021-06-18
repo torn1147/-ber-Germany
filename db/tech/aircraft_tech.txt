@@ -998,7 +998,7 @@ technology =
   }
   label =
   { tag      = TECH_CAT_REFUELPLANE
-    position = { x = 226 y = 393 }
+    position = { x = 231 y = 373 }
   }
   # Early Refuelling Aircraft
   application =
@@ -1017,10 +1017,41 @@ technology =
     component = { id = 4894 name = TECH_CMP_AIRCRAFT_248_4_NAME type = aeronautics difficulty = 6 }
     # Air Refuelling Procedure
     component = { id = 4895 name = TECH_CMP_AIRCRAFT_248_5_NAME type = piloting difficulty = 6 double_time = yes }
-    required  = { 4246 }
+    required  = { 4246 7700 }
     effects =
     { command = { type = activate_unit_type which = b_11 }
       command = { type = new_model which = b_11 value = 0 }
+    }
+  }
+  # Drop Tanks
+  application =
+  { id        = 7700
+    name      = TECH_APP_AIRCRAFT_38_NAME
+    desc      = TECH_APP_AIRCRAFT_38_DESC
+    position  = { x = 226 y = 389 }
+    picture   = "4110"
+    year      = 1939
+    # Aerodynamic Tanks
+    component = { id = 7701 name = TECH_CMP_AIRCRAFT_38_1_NAME type = aeronautics difficulty = 7 }
+    # Tank Detachment Drills
+    component = { id = 7702 name = TECH_CMP_AIRCRAFT_38_2_NAME type = training difficulty = 3 }
+    # Pilot Training
+    component = { id = 7703 name = TECH_CMP_AIRCRAFT_38_3_NAME type = piloting difficulty = 3 }
+    # Durable Alloys
+    component = { id = 7704 name = TECH_CMP_AIRCRAFT_38_4_NAME type = technical_efficiency difficulty = 6 }
+    # Drop Tank Testing
+    component = { id = 7705 name = TECH_CMP_AIRCRAFT_38_5_NAME type = aircraft_testing difficulty = 6 }
+    required  = { 4040 }
+    effects =
+    { command = { type = range which = multi_role value = 200 }
+      command = { type = range which = cas value = 200 }
+      command = { type = range which = tactical_bomber value = 200 }
+      command = { type = build_cost which = multi_role value = 0.2 }
+      command = { type = build_cost which = tactical_bomber value = 0.2 }
+      command = { type = build_cost which = cas value = 0.2 }
+      command = { type = fuel_consumption which = multi_role value = 0.1 }
+      command = { type = fuel_consumption which = tactical_bomber value = 0.15 }
+      command = { type = fuel_consumption which = cas value = 0.12 }
     }
   }
   # Basic Refuelling Aircraft
