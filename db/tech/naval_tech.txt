@@ -2923,9 +2923,8 @@ technology =
     effects =
     { command = { type = convoy_attack which = naval_torpedoes_s value = 1 }
       command = { type = convoy_attack which = destroyer value = 1 }
-      command = { type = convoy_attack which = submarine value = 1 }
-      command = { type = convoy_attack which = nuclear_submarine value = 1 }
-      command = { type = naval_attack which = naval_bomber value = 3 }
+      command = { type = convoy_attack which = submarine value = 3 }
+      command = { type = convoy_attack which = nuclear_submarine value = 3 }
       command = { type = naval_attack which = cag value = 2 }
       command = { type = convoy_attack which = cag value = 2 }
       command = { type = naval_attack which = light_cag value = 2 }
@@ -3004,13 +3003,12 @@ technology =
     component = { id = 3765 name = TECH_CMP_NAVAL_76_5_NAME type = naval_artillery difficulty = 5 double_time = yes }
     required  = { 3750 }
     effects =
-    { command = { type = convoy_attack which = naval_torpedoes_s value = 1 }
-      command = { type = convoy_attack which = destroyer value = 1 }
-      command = { type = convoy_attack which = submarine value = 1 }
-      command = { type = convoy_attack which = nuclear_submarine value = 1 }
-      command = { type = naval_attack which = naval_bomber value = 2 }
-      command = { type = naval_attack which = cag value = 1 }
-      command = { type = convoy_attack which = cag value = 1 }
+    { command = { type = convoy_attack which = naval_torpedoes_s value = 2 }
+      command = { type = convoy_attack which = destroyer value = 2 }
+      command = { type = convoy_attack which = submarine value = 2 }
+      command = { type = convoy_attack which = nuclear_submarine value = 2 }
+      command = { type = naval_attack which = cag value = 2 }
+      command = { type = convoy_attack which = cag value = 2 }
       command = { type = naval_attack which = light_cag value = 1 }
       command = { type = convoy_attack which = light_cag value = 1 }
     }
@@ -3256,29 +3254,26 @@ technology =
       command = { type = new_model which = b_08 value = 0 }
     }
   }
-  label =
-  { tag      = TECH_CAT_NAVAL_1
-    position = { x = 244 y = 199 }
-  }
-  # Interwar gasoline engine design
+ 
+  # Interbellum Engine Design
   application =
   { id        = 2730
     name      = TECH_APP_NAVAL_10_NAME
     desc      = TECH_APP_NAVAL_10_DESC
-    position  = { x = 242 y = 215 }
+    position  = { x = 323 y = 394 }
     picture   = "3130"
     year      = 1934
-    # New Turbine Designs
+    # Serial Manufacturing
     component = { id = 2731 name = TECH_CMP_NAVAL_10_1_NAME type = technical_efficiency difficulty = 8 }
-    # Hydrodynamic Hull Design
+    # Propulsion Design
     component = { id = 2732 name = TECH_CMP_NAVAL_10_2_NAME type = naval_engineering difficulty = 9 }
-    # Enhanced Control Systems
+    # Control Wiring
     component = { id = 2733 name = TECH_CMP_NAVAL_10_3_NAME type = electronics difficulty = 4 }
-    # Efficient Gasoline Engine Design
+    # Oil Based Engine
     component = { id = 2734 name = TECH_CMP_NAVAL_10_4_NAME type = mechanics difficulty = 8 }
-    # Engine Production Facilities
+    # Manufacturing Techniques
     component = { id = 2735 name = TECH_CMP_NAVAL_10_5_NAME type = industrial_engineering difficulty = 10 }
-    required  = { }
+    required  = { 3470 3340 3260 }
     or_required = { 3470 3340 3260 }
     effects =
     { command = { type = speed which = battleship value = 2 }

@@ -17,10 +17,9 @@ allowed_brigades = b_07
 
 max_allowed_brigades = 2
 
-upgrade = { type = infantry		upgrade_time_factor = 0.19	upgrade_cost_factor = 1.16 }
+upgrade = { type = infantry		upgrade_time_factor = 0.19	upgrade_cost_factor = 0.35 }
 upgrade = { type = mechanized	upgrade_time_factor = 0.80	upgrade_cost_factor = 0.32 }
-upgrade = { type = light_armor	upgrade_time_factor = 1	upgrade_cost_factor = 0.7 }
-upgrade = { type = armor		upgrade_time_factor = 1	upgrade_cost_factor = 1.03 }
+upgrade = { type = cavalry		upgrade_time_factor = 0.21	upgrade_cost_factor = 0.75 }
 
 # 0 - Early Motorized Division (1935)
 model = {

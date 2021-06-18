@@ -78,9 +78,9 @@ economy = {
 # Upgrade cost	
 	0.5 # 1 # 0.5 (WIF)
 # Upgrade time
-	0.6 # 1 # 0.6 (WIF)
+	0.7 # 1 # 0.6 (WIF)
 # Reinforce to upgrade modifier. Values from 0.0 (divisions do not get extra upgrade progress on reinforcement) to 1.0 (1:1 ratio, 1% reinforce adds 1% to upgrade progress)
-	0.75 # 0.0 (WIF)
+	0.50 # 0.0 (WIF)
 # Added extra upgrade progress to units in supply. Added daily progress to all units in supply that can upgrade is equal to Cur_STR/(Max_STR * THIS). Added value is not affected by any other upgrade modifiers. Set to 0 to disable this functionality.
     0 #0	
 # Nationalism starting value
@@ -98,15 +98,15 @@ economy = {
 # TC Load from undeployed brigades (multiplied on top of the division cost)
 	0.3
 # If units can be sold/transferred to non allied countries. 0 = No, 1 = Yes (player could offer units to all countries and ask for units from allied countries), 2 = Yes (player could offer and ask for units from all countries) 
-	2 #1
+	0 #1
 # If Blue Prints can be sold to non-allied countries. 0 = No, 1 = Yes (player could offer BP), 2 = Yes (player could offer and ask for BPs) 	0 #0
-	2 #0 (WIF)
+	0 #0 (WIF)
 # If owned (!) provinces can be sold/transferred to non-allied countries. 0 = No, 1 = Yes (player could offer such provinces), 2 = Yes (player cold offer and ask for such provinces)
 	2 #0
 # Allow non-owned (just controlled) provinces to be transferred to allied(!) countries if provinces are cores for that ally. 1 - Enabled, 0 - Disabled (default):	
 	1 #0
 # Province buildings repair modifier - how fast damaged or just built province buildings will reach max level
-	0.75 # 0.25 (WIF)
+	0.25 # 0.25 (WIF)
 # Province resource repair modifier - how fast resources output is increasing to the max (after bombing or conquering)
 	0.5 # 0.25 (WIF)
 # Stockpile limit multiplier for industry resources (energy, metal, rare materials). -1 = Disable, else = Desired Stockpile (unmodified) * this
@@ -160,9 +160,9 @@ economy = {
 # Enable production line edit (auto-upgrade and serial builds lengths): 1 - Enabled, 0 - Disabled
 	1 #0
 # Gearing bonus loss per level of upgrade for unit. Values 0.0 (0% or no gearing bonus lost) to 1.0 (100% or all gearing will be lost)
-	0.1 # -10% gearing bonus per level of upgrade
+	0.05 # -10% gearing bonus per level of upgrade
 # Gearing bonus loss per level of brigade/attachment (added for every upgraded br./att.). Values 0.0 (0% or no gearing bonus lost) to 1.0 (100% or all gearing will be lost)
-	0.05 # -5% gearing bonus per level of upgrade
+	0 # -5% gearing bonus per level of upgrade
 # Modifier on dissent taken from nukes in national provinces. Dissent = (MP + IC*0.5) * Nuke Power * THIS.
 	0.5 #0.5
 # Max daily dissent that can be added to player controlled countries when not enough supplies are produced (and the same time more then required IC is used on CG or on any other slider then on Supplies). 0.0 - Disabled, 1.0 - No restriction
@@ -223,11 +223,11 @@ intelligence = {
 
 diplomacy = {
 # Days between diplomatic missions in a country. Do not use fractions
-	4 #8
+	2 #8
 # Days between policy slider moves
 	360 #360
 # Requirement for "Influence Nation" to affect domestic sliders: Our IC >= Target IC * X
-	1.6 # 2.0
+	1.5 # 2.0
 # Use minister personality value when replacing ministers: 0 = disabled; 1 = enabled
 	1 #0
 # Relationship hit for cancel of a trade deal. This penalty is not used for trades between allies, puppet<->master, inactive trades or trades with efficiency less then 45%.
@@ -278,7 +278,7 @@ combat = {
 # Daily attrition for Naval units out of supply - Str. loss per day. Note: Not applied to AI controlled fleets.
 	0.5 # 0.5
 # Daily attrition for Air units out of supply - Str. loss per day.
-	0.0 # 0.0
+	0.01 # 0.0
 # Lowest unit str. for attrition losses. Units with strength equal or lower then THIS will stop receiving attrition damage. Values above 0.0 prevent unit destruction by attrition. [0.5 = 0.5 STR, 100.0 = 100.0 STR etc.]
 	0.0 # 0.0
 # Combat Modifier: Base Proximity
@@ -300,7 +300,7 @@ combat = {
 # Combat Modifier: Naval Exceeding Max Command Limit Mod
 	-0.25
 # Combat Modifier: Envelopment Mod (for each attack direction above one)
-	-0.05
+	-0.07
 # Combat Modifier: Encircled Mod (for completely surrounded units)
 	0.15 # 0.25 Based on Liddle Hart theories, surrounded units fight even harder for their life
 # Combat Modifier: Land Fort Multiplier ( value * fort level)
@@ -316,13 +316,13 @@ combat = {
 # Combat Modifier: Default Supply Problems Mod - Air
 	-0.5
 # Combat Modifier: Default Supply Problems Mod - Naval
-	0.0	
+	-0.25
 # Combat Modifier: Default Fuel Problems Mod - Land
-	0.0
+	-0.20
 # Combat Modifier: Default Fuel Problems Mod - Air
-	0.0
+	-0.25
 # Combat Modifier: Default Fuel Problems Mod - Naval
-	0.0	
+	-0.20
 # Combat Modifier: Radar Station ( value * radar level)
 	-0.025
 # Combat Modifier: Interceptor vs Bomber Mod
@@ -344,13 +344,13 @@ combat = {
 # Land Leader Command Limit (nr of divisions), Rank 3 (lowest)
 	3
 # Air Leader Command Limit (nr of divisions), Rank 0 (highest)
-	12 # 
+	24 # 
 # Air Leader Command Limit (nr of divisions), Rank 1
-	8 # 
+	12 # 
 # Air Leader Command Limit (nr of divisions), Rank 2
-	4 # 
+	8 # 
 # Air Leader Command Limit (nr of divisions), Rank 3 (lowest)
-	1 # 
+	4 # 
 # Naval Leader Command Limit (nr of ships), Rank 0 (highest)
 	18
 # Naval Leader Command Limit (nr of ships), Rank 1
@@ -374,15 +374,15 @@ combat = {
 # Delay in hours after a combat ends before new orders can be given.	
 	24
 # Maximum sizes of air-stacks
-	4
+	8
 # Duration in hours of Air-to-Air battles
 	4 #4
 # Duration in hours of Naval and Port bombing
-	5 #5
+	3 #5
 # Duration in hours of Strategic bombing
 	3 #5
 # Duration in hours of Ground attack bombing
-	4 #4 
+	5 #4 
 # Effect of experience on combat
 	0.2
 # Damage factor versus Naval Bases from bombing
@@ -430,13 +430,13 @@ combat = {
 # BONUS_ON_EVENT_TRAIT_
 	0.05
 # Combat bonus per leader skill point - Land commanders.
-	0.08 # 0.03 #0.05 (WIF)
+	0.1 # 0.03 #0.05 (WIF)
 # Combat bonus per leader skill point - Air commanders.
-	0.05 # 0.02 (WIF)
+	0.1 # 0.02 (WIF)
 # Combat bonus per leader skill point - Naval commanders.
-	0.05 # 0.02 (WIF)
+	0.1 # 0.02 (WIF)
 # Chance of leaders dying while in combat per day
-	0.00025 #0.0003
+	0.00005 #0.0003
 # Land unit - Min inflicted ORG damage - starting value, it is modified before being used.
 	1.0 #1.0
 # Land unit - Additional inflicted ORG damage (random) for Hard vs Hard or Soft vs Soft units - starting value, it is modified before being used. Don't use fractions!
@@ -511,11 +511,11 @@ combat = {
 	0.0175 #0.1
 # Land vs. Land - Str dmg limit - stop receiving STR damage once this STR limit is reached (prevent unit killing in land combat) and lose all remaining ORG instead. Ignored for Rebels
 #   Set above 0.1 to activate (units with STR less then 0.1 will be killed regardless of this setting)
-	0.5 #0.0
+	0 #0.0
 # Air vs. Air - Org dmg - Increasing this will increase ORG damage air unit takes in battle with other air units [multiplier]
-	0.4
+	0.5
 # Air vs. Air - Str dmg - Increasing this will increase STR damage air unit takes in battle with other air units [multiplier]
-	1
+	1.25
 # Air vs. Land - Org dmg - Increasing this will increase ORG damage land unit takes from air units [multiplier]
 	0.4 # 0.15 (WIF - Doubled in 'Churchill')
 # Air vs. Land - Str dmg - Increasing this will increase STR damage land unit takes from air units [multiplier]
@@ -523,11 +523,11 @@ combat = {
 # Air vs Navy - Org dmg - Increasing this will increase ORG damage naval unit takes from air units [multiplier]
 	1.5
 # Air vs. Navy - Str dmg - Increasing this will increase STR damage naval unit takes from air units [multiplier]
-	0.5
+	0.2
 # Air vs. Subs - Extra ORG damage multiplier to subs in combat vs. air units. 1 = no extra damage [multiplier]
-	3.0
+	5.0
 # Air vs. Subs - Extra STR damage multiplier to subs in combat vs. air units. 1 = no extra damage [multiplier]
-	3.0
+	5.0
 # Navy vs. Air - Org dmg - Increasing this will increase ORG damage air unit takes from naval units [multiplier]
 	0.4 # 0.2 (WIF)
 # Navy vs. Air - Str dmg - Increasing this will increase STR damage air unit takes from naval units [multiplier]
@@ -535,13 +535,13 @@ combat = {
 # Navy vs. Navy - Org dmg - Increasing this will increase ORG damage naval unit takes from other naval units [multiplier]
 	1.0
 # Navy vs. Navy - Str dmg - Increasing this will increase STR damage naval unit takes from other naval units [multiplier]
-	0.75
+	0.25
 # Navy vs. Subs - Extra ORG damage multiplier to subs in combat vs naval units. 1 = no extra damage [multiplier]
-	6.0 #3.0
+	5.0 #3.0
 # Navy vs. Subs - Extra STR damage multiplier to subs in combat vs naval units. 1 = no extra damage [multiplier]
-	3.0 #3.0
+	6.0 #3.0
 # Pure sub stacks detection modifier ( 0 = subs will never be detected, 1.0 - no change )
-	0.5 #1.0
+	0.4 #1.0
 # AA - Min inflicted ORG damage - starting value, it is modified before being used.
 	2.0 #2.0
 # AA - Additional inflicted ORG damage (random) - starting value, it is modified before being used. Don't use fractions!
@@ -671,15 +671,15 @@ combat = {
 # Recalculate arrival times for units in "Sync. arrival time" mode after combat/bombardment. NOTE: enabling this could de-synchronize arrival times! 0 - Disabled, 1 - Enabled for players only, 2 - Enabled for players and AI.
 	0 # 0
 # Movement speed modifier to land units in combat
-	0.25 #1.0
+	0.30 #1.0
 # Movement speed modifier to land units in bombardment
-	0.8 #1.0 
+	0.75 #1.0 
 # Land units speed modifier for units out of supply (ignored for retreating units!). speed = speed * THIS.
 	1.0 #0.1
 # Land units speed modifier for units containing at least one division with ORG less then 1% (ignored for retreating units!). speed = speed / THIS.
 	1.0 #2.0
 # Movement time modifier for fuel consuming land and air units when out of fuel (ignored for retreating and AI controlled units!). Higher THIS value is, longer the arrival time will be. Use 1.0 to disable this.
-	1.0 #3.0
+	1.2 #3.0
 # Default speed for fuel consuming land units when out of fuel. This value can be overridden for each unit type and model by setting out_of_fuel_speed modifier in unit files. -1 - Disable this functionality, else Default out of fuel speed = THIS
 	9 #-1
 # Fleet size range penalty - Percentage loss for every ship above the max threshold (see below). 0.0 (0%) to 1.0 (100%)
@@ -691,9 +691,9 @@ combat = {
 # Apply air and naval unit's range limits on missions to Areas and Regions. 0 = Disabled, 1 = Enabled, 2 = Enabled for AI countries too (Not recommended!!!)
 	1 #0
 # Radar bonus on detection - used to guide friendly air units on Air Superiority and Scramble missions (This * Radar level * Radar efficiency). Added to mission and friendly province bonuses (see below). Higher the better
-	5.0 #0.0
+	7.0 #0.0
 # Bonus on detection of enemy air units when they are over a friendly province (added to radar and mission bonuses). Used to guide friendly air units on Air Superiority and Scramble missions. Higher the better
-	10 #0.0
+	12 #0.0
 # Screens to Capital ratio modifier. Fleet composition = (Screens * THIS) / Capitals; 1.0 = No change/Disabled
 	1.0 #1.0 
 # Chance to target divisions with no ORG left in land combats. Valid values: 0 (0%) to 100 (100%)
@@ -709,13 +709,13 @@ combat = {
 # Fleet positioning  in naval combat - Fleet composition [Screens vs Capitals ratio; It can be between 0.0 (enough screens) and 1.0 (only capital ships)] modifier 
 	-0.5 #-0.5
 # Land and Coastal forts damage modifier for every 100 STR points of attacking units, hourly applied.
-	0.00021 #0.00042
+	0.00042 #0.00042
 # Max damage Land and Coastal forts could take per hour in combat.
-	0.002 # 0.002 #0.001 (WIF)
+	0.01 # 0.002 #0.001 (WIF)
 # Min. Softness for a land division, including added by brigades.
 	20.0	#0.0
 # Auto-retreat from combat when average ORG for own or controlled units drop below THIS
-	10.0 #5.0
+	5.0 #5.0
 # ORG modifier for land units after naval transportation. [ORG = ORG * THIS]
 	0.8 #0.2
 # Breakthrough and Encirclement combat events chance modifiers by average unit speed (sum of the speed of all attacking divisions / attacking divisions count). 
@@ -1025,9 +1025,9 @@ research = {
 # Blueprint Bonus
 	2.5 # 2.0
 # Pre-Historical Date Mod (value * days prior to historical date. Lower limit for the total is -0.9. )
-	-0.0022
+	-0.0018
 # Post-Historical Date Mod ( 1 + value * days post historical year). The Highest possible value is equal to Blueprint Bonus. Doesn't apply to Nuclear and Rocketry researches
-	0.000925 #0.0 #full bonus after 3 years post historical
+	0.001225 #0.0 #full bonus after 3 years post historical
 # Money cost for each skill-level
 	0.1
 # Mean number of "invention" events occuring per year

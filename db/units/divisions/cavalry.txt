@@ -23,8 +23,7 @@ max_allowed_brigades = 2
 upgrade = { type = infantry		upgrade_time_factor = 0.80	upgrade_cost_factor = 0.28 }
 upgrade = { type = motorized	upgrade_time_factor = 0.80	upgrade_cost_factor = 0.30 }
 upgrade = { type = mechanized	upgrade_time_factor = 0.80	upgrade_cost_factor = 0.55 }
-upgrade = { type = light_armor	upgrade_time_factor = 0.80	upgrade_cost_factor = 0.69 }
-upgrade = { type = armor		upgrade_time_factor = 0.80	upgrade_cost_factor = 0.87 }
+
 
 # 0 - Cavalry Division (1870)
 model = {

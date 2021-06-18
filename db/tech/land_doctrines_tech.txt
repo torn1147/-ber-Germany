@@ -26,24 +26,23 @@ technology =
       command = { type = ground_def_eff value = 0.2 }
       command = { type = enable_task which = attack }
       command = { type = muddy_attack which = land value = -16 }
-      command = { type = plain_attack which = land value = -20 }
-      command = { type = desert_attack which = land value = -5 }
-      command = { type = mountain_attack which = land value = -12 }
-      command = { type = hill_attack which = land value = -16 }
-      command = { type = forest_attack which = land value = -16 }
-      command = { type = jungle_attack which = land value = -5 }
-      command = { type = swamp_attack which = land value = -8 }
-      command = { type = urban_attack which = land value = -25 }
-      command = { type = fort_attack which = land value = -24 }
+      command = { type = plain_attack which = land value = -30 }
+      command = { type = desert_attack which = land value = -15 }
+      command = { type = mountain_attack which = land value = -35 }
+      command = { type = hill_attack which = land value = -30 }
+      command = { type = forest_attack which = land value = -28 }
+      command = { type = jungle_attack which = land value = -15 }
+      command = { type = swamp_attack which = land value = -17 }
+      command = { type = urban_attack which = land value = -40 }
+      command = { type = fort_attack which = land value = -30 }
       command = { type = muddy_defense which = land value = -10 }
       command = { type = plain_defense which = land value = -10 }
       command = { type = desert_defense which = land value = -3 }
-      command = { type = mountain_defense which = land value = -8 }
-      command = { type = hill_defense which = land value = -10 }
+      command = { type = mountain_defense which = land value = -2 }
+      command = { type = hill_defense which = land value = -5 }
       command = { type = forest_defense which = land value = -9 }
       command = { type = jungle_defense which = land value = -4 }
       command = { type = swamp_defense which = land value = -5 }
-      command = { type = urban_defense which = land value = -5 }
     }
   }
   # 19th century tactics
@@ -670,16 +669,16 @@ technology =
     position  = { x = 432 y = 66 }
     picture   = "10010"
     year      = 1914
-    # Dugout Construction Drills
-    component = { id = 7691 name = TECH_CMP_LD_63_1_NAME type = infantry_focus difficulty = 7 }
-    # Division Level Coordination
-    component = { id = 7692 name = TECH_CMP_LD_63_2_NAME type = large_unit_tactics difficulty = 8 }
-    # Layered Defense Planning
-    component = { id = 7693 name = TECH_CMP_LD_63_3_NAME type = centralized_execution difficulty = 6 }
-    # Machinegun Fire Overlapping
-    component = { id = 7694 name = TECH_CMP_LD_63_4_NAME type = static_defense_tactics difficulty = 7 }
-    # Improvized Rampart Construction
-    component = { id = 7695 name = TECH_CMP_LD_63_5_NAME type = static_defense_tactics difficulty = 4 }
+    # Killing Ground Layout
+    component = { id = 7691 name = TECH_CMP_LD_63_1_NAME type = combined_arms_focus difficulty = 7 }
+    # Machinegun Crews Training
+    component = { id = 7692 name = TECH_CMP_LD_63_2_NAME type = maneuver_tactics difficulty = 8 }
+    # Artillery Placement Planning
+    component = { id = 7693 name = TECH_CMP_LD_63_3_NAME type = combined_arms_focus difficulty = 6 }
+    # Layered Defense
+    component = { id = 7694 name = TECH_CMP_LD_63_4_NAME type = combined_arms_focus difficulty = 7 }
+    # Digging Drills
+    component = { id = 7695 name = TECH_CMP_LD_63_5_NAME type = management difficulty = 4 }
     required  = { 6680 }
     effects =
     { command = { type = defensiveness which = infantry value = -2 }

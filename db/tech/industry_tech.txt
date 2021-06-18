@@ -119,7 +119,7 @@ technology =
     required  = { 5020 }
     effects =
     { command = { type = industrial_modifier which = total value = 2 }
-      command = { type = industrial_modifier which = supplies value = 2 }
+      command = { type = industrial_modifier which = supplies value = 4 }
     }
   }
   # Agricultural Production
@@ -495,7 +495,7 @@ technology =
     required  = { 5830 }
     effects =
     { command = { type = industrial_modifier which = total value = 2 }
-	  command = { type = activate_unit_type which = naval_improved_hull_l }
+      command = { type = activate_unit_type which = naval_improved_hull_l }
       command = { type = new_model which = naval_improved_hull_l value = 0 }
       command = { type = activate_unit_type which = naval_improved_hull_s }
       command = { type = new_model which = naval_improved_hull_s value = 0 }
@@ -748,13 +748,13 @@ technology =
     component = { id = 5145 name = TECH_CMP_INDUSTRY_14_5_NAME type = management difficulty = 8 double_time = yes }
     required  = { 5130 }
     effects =
-    { command = { type = build_time which = interceptor when = on_upgrade where = relative value = -58 } # First INT model is produced for 72 days only
-      command = { type = build_time which = rocket_interceptor when = on_upgrade where = relative value = -10 } # Rocket Assembly Line reduces build time with 10% more
-      command = { type = build_time which = multi_role when = on_upgrade where = relative value = -58 } # First FTR model is produced for 72 days only
+    { command = { type = build_time which = interceptor when = on_upgrade where = relative value = -58 }
+      command = { type = build_time which = rocket_interceptor when = on_upgrade where = relative value = -10 }
+      command = { type = build_time which = multi_role when = on_upgrade where = relative value = -58 }
       command = { type = build_time which = cas when = on_upgrade where = relative value = -20 }
-      command = { type = build_time which = naval_bomber when = on_upgrade where = relative value = -66 } # First NAV model is produced for 72 days only
-      command = { type = build_time which = strategic_bomber when = on_upgrade where = relative value = -75 } # First STR model is produced for 72 days only
-      command = { type = build_time which = tactical_bomber when = on_upgrade where = relative value = -64 } # First TAC model is produced for 72 days only
+      command = { type = build_time which = naval_bomber when = on_upgrade where = relative value = -66 }
+      command = { type = build_time which = strategic_bomber when = on_upgrade where = relative value = -75 }
+      command = { type = build_time which = tactical_bomber when = on_upgrade where = relative value = -64 }
       command = { type = build_time which = transport_plane when = on_upgrade where = relative value = -40 }
       command = { type = build_time which = escort when = on_upgrade where = relative value = -20 }
       command = { type = build_time which = cag when = on_upgrade where = relative value = -20 }
@@ -828,14 +828,14 @@ technology =
     { command = { type = build_time which = armor when = on_upgrade where = relative value = -20 }
       command = { type = build_time which = light_armor when = on_upgrade where = relative value = -20 }
       command = { type = build_time which = mechanized when = on_upgrade where = relative value = -13 }
-      command = { type = build_time which = motorized when = on_upgrade where = relative value = -13 }  
+      command = { type = build_time which = motorized when = on_upgrade where = relative value = -13 }
       command = { type = build_time which = armored_car when = on_upgrade where = relative value = -20 }
-      command = { type = build_time which = light_armor_brigade when = on_upgrade where = relative value = -20 } 
+      command = { type = build_time which = light_armor_brigade when = on_upgrade where = relative value = -20 }
       command = { type = build_time which = medium_armor when = on_upgrade where = relative value = -20 }
       command = { type = build_time which = heavy_armor when = on_upgrade where = relative value = -20 }
       command = { type = build_time which = super_heavy_armor when = on_upgrade where = relative value = -20 }
       command = { type = build_time which = amph_armor when = on_upgrade where = relative value = -20 }
-      command = { type = build_time which = glider_armor when = on_upgrade where = relative value = -20 }	
+      command = { type = build_time which = glider_armor when = on_upgrade where = relative value = -20 }
       command = { type = build_time which = tank_destroyer when = on_upgrade where = relative value = -20 }
       command = { type = build_time which = sp_artillery when = on_upgrade where = relative value = -20 }
       command = { type = build_time which = sp_anti_air when = on_upgrade where = relative value = -20 }
@@ -1289,7 +1289,7 @@ technology =
     component = { id = 5315 name = TECH_CMP_INDUSTRY_31_5_NAME type = mechanics difficulty = 5 double_time = yes }
     required  = { }
     effects =
-    { command = { type = research_mod value = 3 }
+    { command = { type = research_mod value = 6 }
     }
   }
   # Automatic feed tabulator
@@ -1311,7 +1311,7 @@ technology =
     component = { id = 54015 name = TECH_CMP_INDUSTRY_401_5_NAME type = mechanics difficulty = 5 double_time = yes }
     required  = { 5310 }
     effects =
-    { command = { type = research_mod value = 4 }
+    { command = { type = research_mod value = 8 }
       command = { type = info_may_cause which = 3000049 }
     }
   }
@@ -1359,7 +1359,7 @@ technology =
     component = { id = 54035 name = TECH_CMP_INDUSTRY_403_5_NAME type = mechanics difficulty = 6 double_time = yes }
     required  = { 54010 }
     effects =
-    { command = { type = research_mod value = 6 }
+    { command = { type = research_mod value = 10 }
     }
   }
   # Basic Computing Machine
@@ -1381,7 +1381,7 @@ technology =
     component = { id = 5325 name = TECH_CMP_INDUSTRY_32_5_NAME type = management difficulty = 6 double_time = yes }
     required  = { 54030 }
     effects =
-    { command = { type = research_mod value = 8 }
+    { command = { type = research_mod value = 10 }
     }
   }
   # Improved Computing Machine
@@ -1403,7 +1403,7 @@ technology =
     component = { id = 5335 name = TECH_CMP_INDUSTRY_33_5_NAME type = management difficulty = 7 double_time = yes }
     required  = { 5320 }
     effects =
-    { command = { type = research_mod value = 8 }
+    { command = { type = research_mod value = 10 }
     }
   }
   # Advanced Computing Machine
@@ -2035,8 +2035,8 @@ technology =
     component = { id = 54265 name = TECH_CMP_INDUSTRY_426_5_NAME type = training difficulty = 8 }
     required  = { 5420 }
     effects =
-    { command = { type = air_detection value = 1 when = on_upgrade which = air }
-      command = { type = surface_detection value = 1 when = on_upgrade which = air }
+    { command = { type = air_detection which = air when = on_upgrade value = 1 }
+      command = { type = surface_detection which = air when = on_upgrade value = 1 }
       command = { type = night_attack which = interceptor value = 10 }
       command = { type = night_defense which = interceptor value = 10 }
       command = { type = night_attack which = rocket_interceptor value = 10 }
@@ -2059,11 +2059,11 @@ technology =
       command = { type = night_attack which = naval_radar_l value = 5 }
       command = { type = night_defense which = naval_radar_l value = 5 }
       command = { type = rain_attack which = naval_radar_l value = 5 }
-      command = { type = rain_defense which = naval_radar_l value = 5 }      
+      command = { type = rain_defense which = naval_radar_l value = 5 }
       command = { type = new_model which = naval_radar_s value = 1 }
       command = { type = scrap_model which = naval_radar_s value = 0 }
       command = { type = night_attack which = naval_radar_s value = 5 }
-      command = { type = night_defense which = naval_radar_s value = 5 }      
+      command = { type = night_defense which = naval_radar_s value = 5 }
       command = { type = rain_attack which = naval_radar_s value = 5 }
       command = { type = rain_defense which = naval_radar_s value = 5 }
     }
@@ -2131,8 +2131,8 @@ technology =
     component = { id = 54665 name = TECH_CMP_INDUSTRY_466_5_NAME type = training difficulty = 7 }
     required  = { 5440 }
     effects =
-    { command = { type = air_detection value = 1 when = on_upgrade which = air }
-      command = { type = surface_detection value = 1 when = on_upgrade which = air }
+    { command = { type = air_detection which = air when = on_upgrade value = 1 }
+      command = { type = surface_detection which = air when = on_upgrade value = 1 }
       command = { type = night_attack which = interceptor value = 10 }
       command = { type = night_defense which = interceptor value = 10 }
       command = { type = night_attack which = rocket_interceptor value = 10 }
@@ -2156,13 +2156,13 @@ technology =
       command = { type = night_attack which = naval_radar_l value = 5 }
       command = { type = night_defense which = naval_radar_l value = 5 }
       command = { type = rain_attack which = naval_radar_l value = 5 }
-      command = { type = rain_defense which = naval_radar_l value = 5 }	       
+      command = { type = rain_defense which = naval_radar_l value = 5 }
       command = { type = new_model which = naval_radar_s value = 2 }
       command = { type = scrap_model which = naval_radar_s value = 1 }
       command = { type = night_attack which = naval_radar_s value = 3 }
       command = { type = night_defense which = naval_radar_s value = 3 }
       command = { type = rain_attack which = naval_radar_s value = 3 }
-      command = { type = rain_defense which = naval_radar_s value = 3 }	 
+      command = { type = rain_defense which = naval_radar_s value = 3 }
     }
   }
   # Improved Centimetric Radar Warning Sites
@@ -2256,24 +2256,24 @@ technology =
       command = { type = night_defense which = naval_bomber value = 15 }
       command = { type = night_attack which = cas value = 15 }
       command = { type = night_defense which = cas value = 15 }
-      command = { type = night_attack which = tactical_bomber value = 15 }	
+      command = { type = night_attack which = tactical_bomber value = 15 }
       command = { type = night_defense which = tactical_bomber value = 15 }
       command = { type = night_attack which = transport_plane value = 15 }
-      command = { type = night_defense which = transport_plane value = 15 }	      
+      command = { type = night_defense which = transport_plane value = 15 }
       command = { type = task_efficiency which = strategic_bombardment value = 0.15 }
       command = { type = task_efficiency which = asw value = 0.15 }
       command = { type = new_model which = naval_radar_l value = 4 }
       command = { type = scrap_model which = naval_radar_l value = 3 }
       command = { type = night_attack which = naval_radar_l value = 5 }
-      command = { type = night_defense which = naval_radar_l value = 5 }      
+      command = { type = night_defense which = naval_radar_l value = 5 }
       command = { type = rain_attack which = naval_radar_l value = 5 }
-      command = { type = rain_defense which = naval_radar_l value = 5 }      
+      command = { type = rain_defense which = naval_radar_l value = 5 }
       command = { type = new_model which = naval_radar_s value = 3 }
       command = { type = scrap_model which = naval_radar_s value = 2 }
       command = { type = night_attack which = naval_radar_s value = 3 }
       command = { type = night_defense which = naval_radar_s value = 3 }
       command = { type = rain_attack which = naval_radar_s value = 3 }
-      command = { type = rain_defense which = naval_radar_s value = 3 }	 
+      command = { type = rain_defense which = naval_radar_s value = 3 }
     }
   }
   # Advanced Modern Centimetric Radar Warning Sites
@@ -4093,7 +4093,6 @@ technology =
       command = { type = build_cost which = flying_rocket when = on_upgrade where = relative value = -25 }
       command = { type = build_time which = rocket_interceptor when = on_upgrade where = relative value = -10 }
       command = { type = build_time which = flying_bomb when = on_upgrade where = relative value = -20 }
-
     }
   }
   # Modern Small Arms Assembly Lines
@@ -4139,99 +4138,100 @@ technology =
       command = { type = build_time which = d_08 when = on_upgrade where = relative value = -20 }
     }
   }
-  
-    ### Modern and advanced mining and oil extraction
-  
   label =
   { tag      = TECH_CAT_MINING_OIL_EXTRACTION
     position = { x = 180 y = 377 }
   }
-  
-  # Advanced mining
+  # Advanced Mining
   application =
   { id        = 55000
     name      = TECH_APP_INDUSTRY_55000_NAME
-
     position  = { x = 120 y = 390 }
-	
-	picture   = "DH55000"
+    picture   = "DH55000"
     year      = 1935
+    # Improved conveyor belts
     component = { id = 55001 name = TECH_CMP_INDUSTRY_55000_1_NAME type = mechanics difficulty = 5 }
+    # Electric cutter
     component = { id = 55002 name = TECH_CMP_INDUSTRY_55000_2_NAME type = mechanics difficulty = 5 }
+    # Electric drills
     component = { id = 55003 name = TECH_CMP_INDUSTRY_55000_3_NAME type = mechanics difficulty = 5 }
+    # Advanced mining planning
     component = { id = 55004 name = TECH_CMP_INDUSTRY_55000_4_NAME type = management difficulty = 5 }
+    # Advanced mining techniques
     component = { id = 55005 name = TECH_CMP_INDUSTRY_55000_5_NAME type = industrial_engineering difficulty = 5 double_time = yes }
     required  = { 5070 }
     effects =
-    { 
-	  
-	  command = { type = industrial_modifier which = energy value = 10 }
-	  command = { type = industrial_modifier which = metal value = 10 }
-	  command = { type = industrial_modifier which = rare_materials value = 10 }
+    { command = { type = industrial_modifier which = energy value = 10 }
+      command = { type = industrial_modifier which = metal value = 10 }
+      command = { type = industrial_modifier which = rare_materials value = 10 }
     }
   }
-  # Advanced oil extraction
+  # Advanced Oil Extraction
   application =
   { id        = 55010
     name      = TECH_APP_INDUSTRY_55010_NAME
-
     position  = { x = 230 y = 390 }
-	
-	picture   = "DH55010"
+    picture   = "DH55010"
     year      = 1935
+    # Prospecting by seismic reflection
     component = { id = 55011 name = TECH_CMP_INDUSTRY_55010_1_NAME type = technical_efficiency difficulty = 5 }
+    # Oilfield directional drilling
     component = { id = 55012 name = TECH_CMP_INDUSTRY_55010_2_NAME type = technical_efficiency difficulty = 5 }
+    # Specialized equipment
     component = { id = 55013 name = TECH_CMP_INDUSTRY_55010_3_NAME type = mechanics difficulty = 5 }
+    # Directional boring
     component = { id = 55014 name = TECH_CMP_INDUSTRY_55010_4_NAME type = management difficulty = 5 }
+    # Advanced oil extraction techniques
     component = { id = 55015 name = TECH_CMP_INDUSTRY_55010_5_NAME type = industrial_engineering difficulty = 5 double_time = yes }
     required  = { 5070 }
     effects =
-    { 
-	  command = { type = industrial_modifier which = oil value = 10 }
+    { command = { type = industrial_modifier which = oil value = 10 }
     }
   }
-  # Advanced mining
+  # Modern Mining
   application =
   { id        = 55020
     name      = TECH_APP_INDUSTRY_55020_NAME
-
     position  = { x = 120 y = 406 }
-	
-	picture   = "DH55020"
+    picture   = "DH55020"
     year      = 1946
+    # Improved armoured conveyor
     component = { id = 55021 name = TECH_CMP_INDUSTRY_55020_1_NAME type = mechanics difficulty = 7 }
+    # Modern cutter
     component = { id = 55022 name = TECH_CMP_INDUSTRY_55020_2_NAME type = mechanics difficulty = 7 }
+    # Modern drills
     component = { id = 55023 name = TECH_CMP_INDUSTRY_55020_3_NAME type = mechanics difficulty = 7 }
+    # Modern mining planning
     component = { id = 55024 name = TECH_CMP_INDUSTRY_55020_4_NAME type = management difficulty = 7 }
+    # Modern mining techniques
     component = { id = 55025 name = TECH_CMP_INDUSTRY_55020_5_NAME type = industrial_engineering difficulty = 7 double_time = yes }
     required  = { 5110 55000 }
     effects =
-    { 
-	  
-	  command = { type = industrial_modifier which = energy value = 10 }
-	  command = { type = industrial_modifier which = metal value = 10 }
-	  command = { type = industrial_modifier which = rare_materials value = 10 }
+    { command = { type = industrial_modifier which = energy value = 10 }
+      command = { type = industrial_modifier which = metal value = 10 }
+      command = { type = industrial_modifier which = rare_materials value = 10 }
     }
   }
-  # Modern oil extraction
+  # Modern Oil Extraction
   application =
   { id        = 55030
     name      = TECH_APP_INDUSTRY_55030_NAME
-
     position  = { x = 230 y = 406 }
-	
-	picture   = "DH55030"
+    picture   = "DH55030"
     year      = 1946
+    # Modern Prospecting
     component = { id = 55031 name = TECH_CMP_INDUSTRY_55030_1_NAME type = technical_efficiency difficulty = 7 }
+    # Hydraulic fracturing
     component = { id = 55032 name = TECH_CMP_INDUSTRY_55030_2_NAME type = technical_efficiency difficulty = 7 }
+    # Hydraulic fracturing proppants
     component = { id = 55033 name = TECH_CMP_INDUSTRY_55030_3_NAME type = chemistry difficulty = 7 }
+    # Fluid leakoff control
     component = { id = 55034 name = TECH_CMP_INDUSTRY_55030_4_NAME type = technical_efficiency difficulty = 7 }
+    # Modern oil extraction techniques
     component = { id = 55035 name = TECH_CMP_INDUSTRY_55030_5_NAME type = industrial_engineering difficulty = 7 double_time = yes }
     required  = { 5110 55010 }
     effects =
-    { 
-	  command = { type = industrial_modifier which = oil value = 10 }
+    { command = { type = industrial_modifier which = oil value = 10 }
     }
-  }  
-  
+  }
 }

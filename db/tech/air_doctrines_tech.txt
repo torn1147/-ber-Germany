@@ -8,7 +8,7 @@ technology =
   { id        = 9040
     name      = TECH_APP_AD_4_NAME
     position  = { x = 331 y = 125 }
-	picture   = "9040"
+    picture   = "9040"
     year      = 1936
     # Small Bomb Bays
     component = { id = 9041 name = TECH_CMP_AD_4_1_NAME type = aeronautics difficulty = 3 }
@@ -32,7 +32,7 @@ technology =
   { id        = 9050
     name      = TECH_APP_AD_5_NAME
     position  = { x = 331 y = 140 }
-	picture   = "9050"
+    picture   = "9050"
     year      = 1937
     # Early Precision Bomb Runs
     component = { id = 9051 name = TECH_CMP_AD_5_1_NAME type = training difficulty = 3 }
@@ -55,7 +55,7 @@ technology =
   { id        = 9060
     name      = TECH_APP_AD_6_NAME
     position  = { x = 331 y = 155 }
-	picture   = "9060"
+    picture   = "9060"
     year      = 1938
     # Early Front-line Air Controllers
     component = { id = 9061 name = TECH_CMP_AD_6_1_NAME type = combined_arms_focus difficulty = 3 }
@@ -78,7 +78,7 @@ technology =
   { id        = 9070
     name      = TECH_APP_AD_7_NAME
     position  = { x = 331 y = 170 }
-	picture   = "9070"
+    picture   = "9070"
     year      = 1938
     # Moral Superiority Spirit
     component = { id = 9071 name = TECH_CMP_AD_7_1_NAME type = piloting difficulty = 3 }
@@ -101,7 +101,7 @@ technology =
   { id        = 9080
     name      = TECH_APP_AD_8_NAME
     position  = { x = 331 y = 185 }
-	picture   = "9080"
+    picture   = "9080"
     year      = 1939
     # Very Early Bomb Illumination
     component = { id = 9081 name = TECH_CMP_AD_8_1_NAME type = chemistry difficulty = 3 }
@@ -124,7 +124,7 @@ technology =
   { id        = 9090
     name      = TECH_APP_AD_9_NAME
     position  = { x = 222 y = 125 }
-	picture   = "9090"
+    picture   = "9090"
     year      = 1937
     # Armor-penetration Bombs
     component = { id = 9091 name = TECH_CMP_AD_9_1_NAME type = general_equipment difficulty = 3 }
@@ -149,7 +149,7 @@ technology =
   { id        = 9100
     name      = TECH_APP_AD_10_NAME
     position  = { x = 222 y = 140 }
-	picture   = "9100"
+    picture   = "9100"
     year      = 1938
     # Opportunity Strike Co-ordination
     component = { id = 9101 name = TECH_CMP_AD_10_1_NAME type = decentralized_execution difficulty = 3 }
@@ -176,7 +176,7 @@ technology =
   { id        = 9110
     name      = TECH_APP_AD_11_NAME
     position  = { x = 222 y = 155 }
-	picture   = "9110"
+    picture   = "9110"
     year      = 1938
     # Armor-penetration Ammunition
     component = { id = 9111 name = TECH_CMP_AD_11_1_NAME type = general_equipment difficulty = 3 }
@@ -200,7 +200,7 @@ technology =
   { id        = 9120
     name      = TECH_APP_AD_12_NAME
     position  = { x = 222 y = 170 }
-	picture   = "9120"
+    picture   = "9120"
     year      = 1938
     # Logistical Hub Bombing
     component = { id = 9121 name = TECH_CMP_AD_12_1_NAME type = bomber_tactics difficulty = 3 }
@@ -222,7 +222,7 @@ technology =
   { id        = 9130
     name      = TECH_APP_AD_13_NAME
     position  = { x = 222 y = 185 }
-	picture   = "9130"
+    picture   = "9130"
     year      = 1939
     # Early Night Gun-sight
     component = { id = 9131 name = TECH_CMP_AD_13_1_NAME type = mechanics difficulty = 3 }
@@ -249,7 +249,7 @@ technology =
   { id        = 9140
     name      = TECH_APP_AD_14_NAME
     position  = { x = 0 y = 93 }
-	picture   = "9140"
+    picture   = "9140"
     year      = 1937
     # Early Massed Bomb Run Tactics
     component = { id = 9141 name = TECH_CMP_AD_14_1_NAME type = bomber_tactics difficulty = 3 }
@@ -274,7 +274,7 @@ technology =
   { id        = 9150
     name      = TECH_APP_AD_15_NAME
     position  = { x = 0 y = 108 }
-	picture   = "9150"
+    picture   = "9150"
     year      = 1938
     # Bomber Escort Tactics
     component = { id = 9151 name = TECH_CMP_AD_15_1_NAME type = bomber_tactics difficulty = 3 }
@@ -297,7 +297,7 @@ technology =
   { id        = 9160
     name      = TECH_APP_AD_16_NAME
     position  = { x = 0 y = 123 }
-	picture   = "9160"
+    picture   = "9160"
     year      = 1939
     # Combined Command Net
     component = { id = 9161 name = TECH_CMP_AD_16_1_NAME type = combined_arms_focus difficulty = 3 }
@@ -319,7 +319,7 @@ technology =
   { id        = 9170
     name      = TECH_APP_AD_17_NAME
     position  = { x = 0 y = 138 }
-	picture   = "9170"
+    picture   = "9170"
     year      = 1939
     # Precise Navigation Instruments
     component = { id = 9171 name = TECH_CMP_AD_17_1_NAME type = electronics difficulty = 3 }
@@ -343,7 +343,7 @@ technology =
   { id        = 9180
     name      = TECH_APP_AD_18_NAME
     position  = { x = 0 y = 153 }
-	picture   = "9180"
+    picture   = "9180"
     year      = 1939
     # Night Bomb-sights
     component = { id = 9181 name = TECH_CMP_AD_18_1_NAME type = mechanics difficulty = 3 }
@@ -365,22 +365,22 @@ technology =
   }
   # First Strike Doctrine
   application =
-  { id          = 9190
-    name        = TECH_APP_AD_19_NAME
+  { id        = 9190
+    name      = TECH_APP_AD_19_NAME
     position  = { x = 464 y = 1 }
-	picture   = "9190"
-    year        = 1939
+    picture   = "9190"
+    year      = 1939
     # Enemy Air Force Suppression Tactics
-    component   = { id = 9191 name = TECH_CMP_AD_19_1_NAME type = centralized_execution difficulty = 4 }
+    component = { id = 9191 name = TECH_CMP_AD_19_1_NAME type = centralized_execution difficulty = 4 }
     # Front-line Airspace Domination
-    component   = { id = 9192 name = TECH_CMP_AD_19_2_NAME type = centralized_execution difficulty = 4 }
+    component = { id = 9192 name = TECH_CMP_AD_19_2_NAME type = centralized_execution difficulty = 4 }
     # Early Fighter Radar Guidance
-    component   = { id = 9193 name = TECH_CMP_AD_19_3_NAME type = electronics difficulty = 4 }
+    component = { id = 9193 name = TECH_CMP_AD_19_3_NAME type = electronics difficulty = 4 }
     # Fighter Patrol Tactics
-    component   = { id = 9194 name = TECH_CMP_AD_19_4_NAME type = fighter_tactics difficulty = 4 }
+    component = { id = 9194 name = TECH_CMP_AD_19_4_NAME type = fighter_tactics difficulty = 4 }
     # Unimpeded Air Superiority Spirit
-    component   = { id = 9195 name = TECH_CMP_AD_19_5_NAME type = piloting difficulty = 4 }
-    required    = { }
+    component = { id = 9195 name = TECH_CMP_AD_19_5_NAME type = piloting difficulty = 4 }
+    required  = { }
     or_required = { 9010 }
     effects =
     { command = { type = night_attack which = interceptor value = 10 }
@@ -399,7 +399,7 @@ technology =
   { id        = 9200
     name      = TECH_APP_AD_20_NAME
     position  = { x = 355 y = 16 }
-	picture   = "9200"
+    picture   = "9200"
     year      = 1939
     # Forward Air Commands
     component = { id = 9201 name = TECH_CMP_AD_20_1_NAME type = decentralized_execution difficulty = 4 }
@@ -426,7 +426,7 @@ technology =
   { id        = 9210
     name      = TECH_APP_AD_21_NAME
     position  = { x = 464 y = 16 }
-	picture   = "9210"
+    picture   = "9210"
     year      = 1939
     # Front-line Air Patrols
     component = { id = 9211 name = TECH_CMP_AD_21_1_NAME type = fighter_tactics difficulty = 4 }
@@ -453,7 +453,7 @@ technology =
   { id        = 9220
     name      = TECH_APP_AD_22_NAME
     position  = { x = 355 y = 31 }
-	picture   = "9220"
+    picture   = "9220"
     year      = 1939
     # Rough Weather Capability
     component = { id = 9221 name = TECH_CMP_AD_22_1_NAME type = aeronautics difficulty = 4 }
@@ -480,19 +480,19 @@ technology =
   { id        = 9230
     name      = TECH_APP_AD_23_NAME
     position  = { x = 464 y = 61 }
-	picture   = "9230"
+    picture   = "9230"
     year      = 1939
     # Pre-set Radar Fighter Guidance
-    component   = { id = 9231 name = TECH_CMP_AD_23_1_NAME type = electronics difficulty = 4 }
+    component = { id = 9231 name = TECH_CMP_AD_23_1_NAME type = electronics difficulty = 4 }
     # Forward Air Controller Training
-    component   = { id = 9232 name = TECH_CMP_AD_23_2_NAME type = training difficulty = 4 }
+    component = { id = 9232 name = TECH_CMP_AD_23_2_NAME type = training difficulty = 4 }
     # Individual Fighter Guidance
-    component   = { id = 9233 name = TECH_CMP_AD_23_3_NAME type = fighter_tactics difficulty = 4 }
+    component = { id = 9233 name = TECH_CMP_AD_23_3_NAME type = fighter_tactics difficulty = 4 }
     # Specialized Area Defense Tactics
-    component   = { id = 9234 name = TECH_CMP_AD_23_4_NAME type = decentralized_execution difficulty = 4 }
+    component = { id = 9234 name = TECH_CMP_AD_23_4_NAME type = decentralized_execution difficulty = 4 }
     # Fighter Unit Coordination Training
-    component   = { id = 9235 name = TECH_CMP_AD_23_5_NAME type = training difficulty = 4 }
-    required    = { }
+    component = { id = 9235 name = TECH_CMP_AD_23_5_NAME type = training difficulty = 4 }
+    required  = { }
     or_required = { 9130 9180 }
     effects =
     { command = { type = night_defense which = interceptor value = 20 }
@@ -511,7 +511,7 @@ technology =
   { id        = 9240
     name      = TECH_APP_AD_24_NAME
     position  = { x = 355 y = 76 }
-	picture   = "9240"
+    picture   = "9240"
     year      = 1939
     # Close Escort Tactics
     component = { id = 9241 name = TECH_CMP_AD_24_1_NAME type = large_unit_tactics difficulty = 4 }
@@ -536,7 +536,7 @@ technology =
   { id        = 9250
     name      = TECH_APP_AD_25_NAME
     position  = { x = 464 y = 76 }
-	picture   = "9250"
+    picture   = "9250"
     year      = 1940
     # Centralized Fighter Coordination
     component = { id = 9251 name = TECH_CMP_AD_25_1_NAME type = centralized_execution difficulty = 4 }
@@ -561,7 +561,7 @@ technology =
   { id        = 9260
     name      = TECH_APP_AD_26_NAME
     position  = { x = 355 y = 91 }
-	picture   = "9260"
+    picture   = "9260"
     year      = 1940
     # Combat Reconnaissance Tactics
     component = { id = 9261 name = TECH_CMP_AD_26_1_NAME type = fighter_tactics difficulty = 4 }
@@ -585,7 +585,7 @@ technology =
   { id        = 9270
     name      = TECH_APP_AD_27_NAME
     position  = { x = 331 y = 200 }
-	picture   = "9270"
+    picture   = "9270"
     year      = 1941
     # Troop Concentration Bombing
     component = { id = 9271 name = TECH_CMP_AD_27_1_NAME type = training difficulty = 4 }
@@ -608,7 +608,7 @@ technology =
   { id        = 9280
     name      = TECH_APP_AD_28_NAME
     position  = { x = 331 y = 215 }
-	picture   = "DH9280"
+    picture   = "DH9280"
     year      = 1941
     # Front-line Combat Air Patrol
     component = { id = 9281 name = TECH_CMP_AD_28_1_NAME type = bomber_tactics difficulty = 4 }
@@ -630,7 +630,7 @@ technology =
   { id        = 9290
     name      = TECH_APP_AD_29_NAME
     position  = { x = 331 y = 230 }
-	picture   = "9290"
+    picture   = "9290"
     year      = 1942
     # Division-attached Air Support
     component = { id = 9291 name = TECH_CMP_AD_29_1_NAME type = combined_arms_focus difficulty = 4 }
@@ -653,7 +653,7 @@ technology =
   { id        = 9300
     name      = TECH_APP_AD_30_NAME
     position  = { x = 331 y = 245 }
-	picture   = "9300"
+    picture   = "9300"
     year      = 1942
     # Individual Training
     component = { id = 9301 name = TECH_CMP_AD_30_1_NAME type = training difficulty = 4 }
@@ -676,7 +676,7 @@ technology =
   { id        = 9310
     name      = TECH_APP_AD_31_NAME
     position  = { x = 464 y = 31 }
-	picture   = "9310"
+    picture   = "9310"
     year      = 1942
     # Offensive Fighter Tactics
     component = { id = 9311 name = TECH_CMP_AD_31_1_NAME type = fighter_tactics difficulty = 4 }
@@ -703,7 +703,7 @@ technology =
   { id        = 9320
     name      = TECH_APP_AD_32_NAME
     position  = { x = 355 y = 46 }
-	picture   = "9320"
+    picture   = "9320"
     year      = 1943
     # Flying Ambush Tactic
     component = { id = 9321 name = TECH_CMP_AD_32_1_NAME type = fighter_tactics difficulty = 4 }
@@ -730,7 +730,7 @@ technology =
   { id        = 9330
     name      = TECH_APP_AD_33_NAME
     position  = { x = 464 y = 46 }
-	picture   = "9330"
+    picture   = "9330"
     year      = 1943
     # Improved Dog-fighting Training
     component = { id = 9331 name = TECH_CMP_AD_33_1_NAME type = training difficulty = 4 }
@@ -754,7 +754,7 @@ technology =
   { id        = 9340
     name      = TECH_APP_AD_34_NAME
     position  = { x = 355 y = 61 }
-	picture   = "9340"
+    picture   = "9340"
     year      = 1943
     # Ace Fighting Experience
     component = { id = 9341 name = TECH_CMP_AD_34_1_NAME type = piloting difficulty = 4 }
@@ -781,7 +781,7 @@ technology =
   { id        = 9350
     name      = TECH_APP_AD_35_NAME
     position  = { x = 222 y = 200 }
-	picture   = "9350"
+    picture   = "9350"
     year      = 1941
     # Refined Precision Bombing
     component = { id = 9351 name = TECH_CMP_AD_35_1_NAME type = training difficulty = 4 }
@@ -805,7 +805,7 @@ technology =
   { id        = 9360
     name      = TECH_APP_AD_36_NAME
     position  = { x = 222 y = 215 }
-	picture   = "9360"
+    picture   = "9360"
     year      = 1942
     # Lightning Strikes
     component = { id = 9361 name = TECH_CMP_AD_36_1_NAME type = bomber_tactics difficulty = 4 }
@@ -831,7 +831,7 @@ technology =
   { id        = 9370
     name      = TECH_APP_AD_37_NAME
     position  = { x = 222 y = 230 }
-	picture   = "9370"
+    picture   = "9370"
     year      = 1942
     # Large-scale Mission Planning
     component = { id = 9371 name = TECH_CMP_AD_37_1_NAME type = centralized_execution difficulty = 4 }
@@ -852,12 +852,12 @@ technology =
       command = { type = task_efficiency which = airborne_assault value = 0.1 }
     }
   }
-  # Keypoint Bombardment Doctrine
+  # Key point Bombardment Doctrine
   application =
   { id        = 9380
     name      = TECH_APP_AD_38_NAME
     position  = { x = 222 y = 245 }
-	picture   = "9380"
+    picture   = "9380"
     year      = 1943
     # Precision Bomb Runs
     component = { id = 9381 name = TECH_CMP_AD_38_1_NAME type = training difficulty = 4 }
@@ -883,7 +883,7 @@ technology =
   { id        = 9390
     name      = TECH_APP_AD_39_NAME
     position  = { x = 464 y = 91 }
-	picture   = "9390"
+    picture   = "9390"
     year      = 1942
     # Area Fighter Coordination
     component = { id = 9391 name = TECH_CMP_AD_39_1_NAME type = centralized_execution difficulty = 4 }
@@ -910,7 +910,7 @@ technology =
   { id        = 9400
     name      = TECH_APP_AD_40_NAME
     position  = { x = 355 y = 106 }
-	picture   = "9400"
+    picture   = "9400"
     year      = 1942
     # Multi-layered Fighter Defense
     component = { id = 9401 name = TECH_CMP_AD_40_1_NAME type = fighter_tactics difficulty = 4 }
@@ -937,7 +937,7 @@ technology =
   { id        = 9410
     name      = TECH_APP_AD_41_NAME
     position  = { x = 464 y = 106 }
-	picture   = "9410"
+    picture   = "9410"
     year      = 1943
     # Multi-layer Radar Coverage
     component = { id = 9411 name = TECH_CMP_AD_41_1_NAME type = electronics difficulty = 4 }
@@ -964,7 +964,7 @@ technology =
   { id        = 9420
     name      = TECH_APP_AD_42_NAME
     position  = { x = 443 y = 121 }
-	picture   = "9420"
+    picture   = "9420"
     year      = 1943
     # Alert Fighter Wings
     component = { id = 9421 name = TECH_CMP_AD_42_1_NAME type = training difficulty = 4 }
@@ -991,7 +991,7 @@ technology =
   { id        = 9430
     name      = TECH_APP_AD_43_NAME
     position  = { x = 0 y = 168 }
-	picture   = "9430"
+    picture   = "9430"
     year      = 1942
     # Troop Concentration Bombing
     component = { id = 9431 name = TECH_CMP_AD_43_1_NAME type = bomber_tactics difficulty = 4 }
@@ -1013,7 +1013,7 @@ technology =
   { id        = 9440
     name      = TECH_APP_AD_44_NAME
     position  = { x = 0 y = 183 }
-	picture   = "9440"
+    picture   = "9440"
     year      = 1942
     # Bomber-Escort Radio-net
     component = { id = 9441 name = TECH_CMP_AD_44_1_NAME type = electronics difficulty = 4 }
@@ -1035,7 +1035,7 @@ technology =
   { id        = 9450
     name      = TECH_APP_AD_45_NAME
     position  = { x = 0 y = 198 }
-	picture   = "9450"
+    picture   = "9450"
     year      = 1942
     # Bomber Stream Tactics
     component = { id = 9451 name = TECH_CMP_AD_45_1_NAME type = bomber_tactics difficulty = 4 }
@@ -1051,7 +1051,7 @@ technology =
     effects =
     { command = { type = snow_attack which = strategic_bomber value = 10 }
       command = { type = rain_attack which = strategic_bomber value = 10 }
-	  command = { type = task_efficiency which = strategic_bombardment value = 0.1 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.1 }
     }
   }
   # Flying Armada Doctrine
@@ -1059,7 +1059,7 @@ technology =
   { id        = 9460
     name      = TECH_APP_AD_46_NAME
     position  = { x = 0 y = 213 }
-	picture   = "9460"
+    picture   = "9460"
     year      = 1943
     # Invincible Superiority Spirit
     component = { id = 9461 name = TECH_CMP_AD_46_1_NAME type = piloting difficulty = 4 }
@@ -1081,7 +1081,7 @@ technology =
   { id        = 27000
     name      = TECH_APP_AD_50_NAME
     position  = { x = 557 y = 123 }
-	picture   = "DH27000"
+    picture   = "DH27000"
     year      = 1946
     # Combat Ace Experience
     component = { id = 27001 name = TECH_CMP_AD_50_1_NAME type = piloting difficulty = 3 }
@@ -1104,7 +1104,7 @@ technology =
   { id        = 27010
     name      = TECH_APP_AD_51_NAME
     position  = { x = 583 y = 138 }
-	picture   = "DH27010"
+    picture   = "DH27010"
     year      = 1947
     # Homeland Defense Motivation
     component = { id = 27011 name = TECH_CMP_AD_51_1_NAME type = piloting difficulty = 4 }
@@ -1131,7 +1131,7 @@ technology =
   { id        = 27020
     name      = TECH_APP_AD_52_NAME
     position  = { x = 583 y = 153 }
-	picture   = "DH27020"
+    picture   = "DH27020"
     year      = 1949
     # Early Cold War Interceptor Tactics
     component = { id = 27021 name = TECH_CMP_AD_52_1_NAME type = fighter_tactics difficulty = 5 }
@@ -1156,7 +1156,7 @@ technology =
   { id        = 27030
     name      = TECH_APP_AD_53_NAME
     position  = { x = 583 y = 168 }
-	picture   = "DH27030"
+    picture   = "DH27030"
     year      = 1951
     # Improved Anti-Air Turrets
     component = { id = 27031 name = TECH_CMP_AD_53_1_NAME type = technical_efficiency difficulty = 7 }
@@ -1166,7 +1166,7 @@ technology =
     component = { id = 27033 name = TECH_CMP_AD_53_3_NAME type = training difficulty = 7 }
     # Improved Target Tracking
     component = { id = 27034 name = TECH_CMP_AD_53_4_NAME type = training difficulty = 7 }
-    # Friendly  Fire Prevention
+    # Friendly Fire Prevention
     component = { id = 27035 name = TECH_CMP_AD_53_5_NAME type = fighter_tactics difficulty = 7 }
     required  = { 27020 }
     effects =
@@ -1181,7 +1181,7 @@ technology =
   { id        = 27040
     name      = TECH_APP_AD_54_NAME
     position  = { x = 583 y = 183 }
-	picture   = "DH27040"
+    picture   = "DH27040"
     year      = 1953
     # Improved Air-Land Coordination
     component = { id = 27041 name = TECH_CMP_AD_54_1_NAME type = centralized_execution difficulty = 5 }
@@ -1207,7 +1207,7 @@ technology =
   { id        = 27050
     name      = TECH_APP_AD_55_NAME
     position  = { x = 583 y = 198 }
-	picture   = "DH27050"
+    picture   = "DH27050"
     year      = 1956
     # Improved Radar and Communications
     component = { id = 27051 name = TECH_CMP_AD_55_1_NAME type = technical_efficiency difficulty = 6 }
@@ -1231,7 +1231,7 @@ technology =
       command = { type = storm_attack which = interceptor value = 10 }
       command = { type = storm_defense which = interceptor value = 10 }
       command = { type = urban_defense which = interceptor value = 10 }
-      command = { type = max_organization which = interceptor value = 2 } 
+      command = { type = max_organization which = interceptor value = 2 }
       command = { type = morale which = interceptor value = 5 }
       command = { type = night_attack which = d_20 value = 15 }
       command = { type = night_defense which = d_20 value = 15 }
@@ -1242,7 +1242,7 @@ technology =
       command = { type = storm_attack which = d_20 value = 10 }
       command = { type = storm_defense which = d_20 value = 10 }
       command = { type = urban_defense which = d_20 value = 10 }
-      command = { type = max_organization which = d_20 value = 2 } 
+      command = { type = max_organization which = d_20 value = 2 }
       command = { type = morale which = d_20 value = 5 }
     }
   }
@@ -1251,7 +1251,7 @@ technology =
   { id        = 27060
     name      = TECH_APP_AD_56_NAME
     position  = { x = 583 y = 213 }
-	picture   = "DH27060"
+    picture   = "DH27060"
     year      = 1959
     # Multiple Wing Coordination
     component = { id = 27061 name = TECH_CMP_AD_56_1_NAME type = training difficulty = 6 }
@@ -1274,7 +1274,7 @@ technology =
   { id        = 27070
     name      = TECH_APP_AD_57_NAME
     position  = { x = 474 y = 138 }
-	picture   = "DH27070"
+    picture   = "DH27070"
     year      = 1947
     # Tactical Unit - Air Wing
     component = { id = 27071 name = TECH_CMP_AD_57_1_NAME type = training difficulty = 5 }
@@ -1291,7 +1291,7 @@ technology =
     { command = { type = deactivate which = 27010 }
       command = { type = max_organization which = multi_role value = 10 }
       command = { type = morale which = air value = 2 }
-	  command = { type = task_efficiency which = air_superiority value = 0.25 }	
+      command = { type = task_efficiency which = air_superiority value = 0.25 }
     }
   }
   # Multi-role Fighter Focus
@@ -1299,7 +1299,7 @@ technology =
   { id        = 27080
     name      = TECH_APP_AD_58_NAME
     position  = { x = 474 y = 153 }
-	picture   = "DH27080"
+    picture   = "DH27080"
     year      = 1949
     # Early Multi-role Fighter Tactics
     component = { id = 27081 name = TECH_CMP_AD_58_1_NAME type = fighter_tactics difficulty = 5 }
@@ -1315,7 +1315,7 @@ technology =
     effects =
     { command = { type = task_efficiency which = ground_attack value = 0.1 }
       command = { type = task_efficiency which = interdiction value = 0.1 }
-	  command = { type = max_organization which = multi_role value = 2 }
+      command = { type = max_organization which = multi_role value = 2 }
       command = { type = morale which = multi_role value = 2 }
     }
   }
@@ -1324,7 +1324,7 @@ technology =
   { id        = 27090
     name      = TECH_APP_AD_59_NAME
     position  = { x = 474 y = 168 }
-	picture   = "DH27090"
+    picture   = "DH27090"
     year      = 1951
     # Central Fighter Command
     component = { id = 27091 name = TECH_CMP_AD_59_1_NAME type = centralized_execution difficulty = 5 }
@@ -1342,12 +1342,12 @@ technology =
       command = { type = morale which = multi_role value = 5 }
     }
   }
-   # Rapid Air Superiority
+  # Rapid Air Superiority
   application =
   { id        = 27100
     name      = TECH_APP_AD_60_NAME
     position  = { x = 474 y = 183 }
-	picture   = "17000"
+    picture   = "17000"
     year      = 1953
     # Improved Onboard-Radar Devices
     component = { id = 27101 name = TECH_CMP_AD_60_1_NAME type = technical_efficiency difficulty = 5 }
@@ -1369,7 +1369,7 @@ technology =
   { id        = 27110
     name      = TECH_APP_AD_61_NAME
     position  = { x = 474 y = 198 }
-	picture   = "DH27110"
+    picture   = "DH27110"
     year      = 1956
     # Modern On-Board Instruments
     component = { id = 27111 name = TECH_CMP_AD_61_1_NAME type = technical_efficiency difficulty = 6 }
@@ -1393,7 +1393,7 @@ technology =
       command = { type = storm_attack which = multi_role value = 10 }
       command = { type = storm_defense which = multi_role value = 10 }
       command = { type = urban_attack which = multi_role value = 10 }
-      command = { type = morale which = multi_role value = 2 } 
+      command = { type = morale which = multi_role value = 2 }
       command = { type = max_organization which = multi_role value = 5 }
     }
   }
@@ -1402,7 +1402,7 @@ technology =
   { id        = 27120
     name      = TECH_APP_AD_62_NAME
     position  = { x = 474 y = 213 }
-	picture   = "DH27120"
+    picture   = "DH27120"
     year      = 1959
     # Advanced Espionage
     component = { id = 27121 name = TECH_CMP_AD_62_1_NAME type = individual_courage difficulty = 8 }
@@ -1431,7 +1431,7 @@ technology =
   { id        = 27130
     name      = TECH_APP_AD_63_NAME
     position  = { x = 533 y = 228 }
-	picture   = "DH27130"
+    picture   = "DH27130"
     year      = 1961
     # Air Force Recruiting
     component = { id = 27131 name = TECH_CMP_AD_63_1_NAME type = management difficulty = 5 }
@@ -1460,7 +1460,7 @@ technology =
   { id        = 27140
     name      = TECH_APP_AD_64_NAME
     position  = { x = 232 y = 272 }
-	picture   = "DH27140"
+    picture   = "DH27140"
     year      = 1948
     # Deep Cover Espionage
     component = { id = 27141 name = TECH_CMP_AD_64_1_NAME type = individual_courage difficulty = 5 }
@@ -1485,7 +1485,7 @@ technology =
   { id        = 27150
     name      = TECH_APP_AD_65_NAME
     position  = { x = 232 y = 287 }
-	picture   = "2510"
+    picture   = "2510"
     year      = 1950
     # Early Medium-Range Bomber-Usage
     component = { id = 27151 name = TECH_CMP_AD_65_1_NAME type = training difficulty = 5 }
@@ -1508,7 +1508,7 @@ technology =
   { id        = 27160
     name      = TECH_APP_AD_66_NAME
     position  = { x = 232 y = 302 }
-	picture   = "DH27160"
+    picture   = "DH27160"
     year      = 1952
     # Early Missile Defense Avoidance
     component = { id = 27161 name = TECH_CMP_AD_66_1_NAME type = piloting difficulty = 5 }
@@ -1531,9 +1531,9 @@ technology =
   { id        = 27170
     name      = TECH_APP_AD_67_NAME
     position  = { x = 232 y = 317 }
-	picture   = "DH27170"
+    picture   = "DH27170"
     year      = 1952
-    # Long Range Fighter Escorts 
+    # Long Range Fighter Escorts
     component = { id = 27171 name = TECH_CMP_AD_67_1_NAME type = fighter_tactics difficulty = 5 }
     # Surface Radar Evasion
     component = { id = 27172 name = TECH_CMP_AD_67_2_NAME type = training difficulty = 5 }
@@ -1554,7 +1554,7 @@ technology =
   { id        = 27180
     name      = TECH_APP_AD_68_NAME
     position  = { x = 232 y = 332 }
-	picture   = "DH27180"
+    picture   = "DH27180"
     year      = 1957
     # Improved Missile Defense Avoidance
     component = { id = 27181 name = TECH_CMP_AD_68_1_NAME type = piloting difficulty = 6 }
@@ -1578,7 +1578,7 @@ technology =
   { id        = 27190
     name      = TECH_APP_AD_69_NAME
     position  = { x = 232 y = 347 }
-	picture   = "DH27190"
+    picture   = "DH27190"
     year      = 1959
     # Accurate Missile Guidance
     component = { id = 27191 name = TECH_CMP_AD_69_1_NAME type = electronics difficulty = 6 }
@@ -1603,7 +1603,7 @@ technology =
   { id        = 27200
     name      = TECH_APP_AD_70_NAME
     position  = { x = 232 y = 362 }
-	picture   = "DH27200"
+    picture   = "DH27200"
     year      = 1964
     # Desert Weapons Optimization
     component = { id = 27201 name = TECH_CMP_AD_70_1_NAME type = general_equipment difficulty = 6 }
@@ -1629,11 +1629,11 @@ technology =
   { id        = 27210
     name      = TECH_APP_AD_71_NAME
     position  = { x = 341 y = 272 }
-	picture   = "DH27210"
+    picture   = "DH27210"
     year      = 1948
     # Ground/Air Coordination
     component = { id = 27211 name = TECH_CMP_AD_71_1_NAME type = combined_arms_focus difficulty = 5 }
-    # Ground/Air  Communication
+    # Ground/Air Communication
     component = { id = 27212 name = TECH_CMP_AD_71_2_NAME type = training difficulty = 5 }
     # Ground/Air Cooperation
     component = { id = 27213 name = TECH_CMP_AD_71_3_NAME type = piloting difficulty = 5 }
@@ -1654,7 +1654,7 @@ technology =
   { id        = 27220
     name      = TECH_APP_AD_72_NAME
     position  = { x = 341 y = 287 }
-	picture   = "DH27220"
+    picture   = "DH27220"
     year      = 1950
     # Close Air Support Usage
     component = { id = 27221 name = TECH_CMP_AD_72_1_NAME type = training difficulty = 5 }
@@ -1677,7 +1677,7 @@ technology =
   { id        = 27230
     name      = TECH_APP_AD_73_NAME
     position  = { x = 341 y = 302 }
-	picture   = "DH27230"
+    picture   = "DH27230"
     year      = 1952
     # Enemy Ground Fire Avoidance
     component = { id = 27231 name = TECH_CMP_AD_73_1_NAME type = piloting difficulty = 5 }
@@ -1701,7 +1701,7 @@ technology =
   { id        = 27240
     name      = TECH_APP_AD_74_NAME
     position  = { x = 341 y = 317 }
-	picture   = "DH27240"
+    picture   = "DH27240"
     year      = 1953
     # Chemical Herbicide Production
     component = { id = 27241 name = TECH_CMP_AD_74_1_NAME type = chemistry difficulty = 8 }
@@ -1751,7 +1751,7 @@ technology =
   { id        = 27250
     name      = TECH_APP_AD_75_NAME
     position  = { x = 341 y = 332 }
-	picture   = "DH27250"
+    picture   = "DH27250"
     year      = 1954
     # High Yield Explosives
     component = { id = 27251 name = TECH_CMP_AD_75_1_NAME type = chemistry difficulty = 8 }
@@ -1767,7 +1767,7 @@ technology =
     or_required = { 27190 27230 }
     effects =
     { command = { type = max_organization which = cas value = 10 }
-	  command = { type = task_efficiency which = ground_attack value = 0.1 }
+      command = { type = task_efficiency which = ground_attack value = 0.1 }
       command = { type = task_efficiency which = interdiction value = 0.1 }
     }
   }
@@ -1776,7 +1776,7 @@ technology =
   { id        = 27260
     name      = TECH_APP_AD_76_NAME
     position  = { x = 341 y = 347 }
-	picture   = "DH27260"
+    picture   = "DH27260"
     year      = 1959
     # Attack Helicopters
     component = { id = 27261 name = TECH_CMP_AD_76_1_NAME type = training difficulty = 6 }
@@ -1793,7 +1793,7 @@ technology =
     effects =
     { command = { type = jungle_attack which = land value = 15 }
       command = { type = jungle_move which = land value = 15 }
-	  command = { type = desert_attack which = land value = 25 }
+      command = { type = desert_attack which = land value = 25 }
       command = { type = desert_move which = land value = 25 }
       command = { type = swamp_attack which = land value = 15 }
       command = { type = swamp_defense which = land value = 15 }
@@ -1808,7 +1808,7 @@ technology =
   { id        = 27270
     name      = TECH_APP_AD_77_NAME
     position  = { x = 341 y = 362 }
-	picture   = "DH27270"
+    picture   = "DH27270"
     year      = 1964
     # Improved Helicopter Gunships
     component = { id = 27271 name = TECH_CMP_AD_77_1_NAME type = training difficulty = 7 }
@@ -1839,7 +1839,7 @@ technology =
   { id        = 27280
     name      = TECH_APP_AD_78_NAME
     position  = { x = 577 y = 3 }
-	picture   = "DH27280"
+    picture   = "DH27280"
     year      = 1952
     # Combat Helicopters
     component = { id = 27281 name = TECH_CMP_AD_78_1_NAME type = training difficulty = 7 }
@@ -1856,7 +1856,7 @@ technology =
     { command = { type = morale which = transport_plane value = 10 }
       command = { type = max_organization which = paratrooper value = 3 }
       command = { type = morale which = paratrooper value = 15 }
-	  command = { type = task_efficiency which = airborne_assault value = 0.1 }
+      command = { type = task_efficiency which = airborne_assault value = 0.1 }
     }
   }
   # All Terrain Airborne Assault
@@ -1864,7 +1864,7 @@ technology =
   { id        = 27290
     name      = TECH_APP_AD_79_NAME
     position  = { x = 577 y = 18 }
-	picture   = "1070"
+    picture   = "1070"
     year      = 1957
     # Modern Helicopters
     component = { id = 27291 name = TECH_CMP_AD_79_1_NAME type = training difficulty = 7 }
@@ -1884,7 +1884,7 @@ technology =
       command = { type = rain_attack which = paratrooper value = 5 }
       command = { type = desert_attack which = paratrooper value = 20 }
       command = { type = hill_attack which = paratrooper value = 5 }
-	  command = { type = task_efficiency which = airborne_assault value = 0.05 }
+      command = { type = task_efficiency which = airborne_assault value = 0.05 }
     }
   }
   # Stealth Airborne Assault
@@ -1892,7 +1892,7 @@ technology =
   { id        = 27300
     name      = TECH_APP_AD_80_NAME
     position  = { x = 577 y = 33 }
-	picture   = "DH27300"
+    picture   = "DH27300"
     year      = 1962
     # Glider Design
     component = { id = 27301 name = TECH_CMP_AD_80_1_NAME type = training difficulty = 7 }
@@ -1907,7 +1907,7 @@ technology =
     required  = { 27290 }
     effects =
     { command = { type = max_organization which = transport_plane value = 20 }
-	  command = { type = task_efficiency which = airborne_assault value = 0.1 }
+      command = { type = task_efficiency which = airborne_assault value = 0.1 }
     }
   }
   # Strategic Bomber Focus
@@ -1915,9 +1915,9 @@ technology =
   { id        = 27310
     name      = TECH_APP_AD_81_NAME
     position  = { x = 3 y = 231 }
-	picture   = "DH27310"
+    picture   = "DH27310"
     year      = 1951
-   # Basic Bomber-Crew Training
+    # Basic Bomber-Crew Training
     component = { id = 27311 name = TECH_CMP_AD_81_1_NAME type = piloting difficulty = 5 }
     # Long Range Bombing Missions
     component = { id = 27312 name = TECH_CMP_AD_81_2_NAME type = training difficulty = 5 }
@@ -1930,8 +1930,8 @@ technology =
     required  = { 27000 9460 }
     effects =
     { command = { type = deactivate which = 27320 }
-       command = { type = max_organization which = strategic_bomber value = 3 }
-       command = { type = morale which = strategic_bomber value = 15 }
+      command = { type = max_organization which = strategic_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 15 }
     }
   }
   # Strategic Missile Focus
@@ -1939,9 +1939,9 @@ technology =
   { id        = 27320
     name      = TECH_APP_AD_82_NAME
     position  = { x = 112 y = 231 }
-	picture   = "DH27320"
+    picture   = "DH27320"
     year      = 1951
-   # No Pilot Training Needed
+    # No Pilot Training Needed
     component = { id = 27321 name = TECH_CMP_AD_82_1_NAME type = centralized_execution difficulty = 5 }
     # Unmanned Vehicle Spirit
     component = { id = 27322 name = TECH_CMP_AD_82_2_NAME type = piloting difficulty = 5 }
@@ -1963,7 +1963,7 @@ technology =
   { id        = 27330
     name      = TECH_APP_AD_83_NAME
     position  = { x = 63 y = 246 }
-	picture   = "DH27330"
+    picture   = "DH27330"
     year      = 1952
     # Early Warning Radar Sites
     component = { id = 27331 name = TECH_CMP_AD_83_1_NAME type = electronics difficulty = 5 }
@@ -1986,7 +1986,7 @@ technology =
   { id        = 27340
     name      = TECH_APP_AD_84_NAME
     position  = { x = 3 y = 261 }
-	picture   = "17010"
+    picture   = "17010"
     year      = 1953
     # Cold War Crew Training
     component = { id = 27341 name = TECH_CMP_AD_84_1_NAME type = piloting difficulty = 5 }
@@ -2001,8 +2001,8 @@ technology =
     required  = { 27330 }
     or_required = { 27310 27350 }
     effects =
-    {  command = { type = max_organization which = strategic_bomber value = 3 }
-       command = { type = morale which = strategic_bomber value = 10 }
+    { command = { type = max_organization which = strategic_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 10 }
     }
   }
   # Missile Command
@@ -2010,7 +2010,7 @@ technology =
   { id        = 27350
     name      = TECH_APP_AD_85_NAME
     position  = { x = 112 y = 261 }
-	picture   = "DH27350"
+    picture   = "DH27350"
     year      = 1953
     # Rocket Base Organization
     component = { id = 27351 name = TECH_CMP_AD_85_1_NAME type = centralized_execution difficulty = 5 }
@@ -2036,7 +2036,7 @@ technology =
   { id        = 27360
     name      = TECH_APP_AD_86_NAME
     position  = { x = 57 y = 276 }
-	picture   = "DH27360"
+    picture   = "DH27360"
     year      = 1956
     # Strategic Air Command
     component = { id = 27361 name = TECH_CMP_AD_86_1_NAME type = training difficulty = 7 }
@@ -2058,7 +2058,7 @@ technology =
   { id        = 27370
     name      = TECH_APP_AD_87_NAME
     position  = { x = 112 y = 291 }
-	picture   = "DH27370"
+    picture   = "DH27370"
     year      = 1956
     # Anti-Ballistic Missiles
     component = { id = 27371 name = TECH_CMP_AD_87_1_NAME type = training difficulty = 8 }
@@ -2089,7 +2089,7 @@ technology =
   { id        = 27380
     name      = TECH_APP_AD_88_NAME
     position  = { x = 3 y = 291 }
-	picture   = "DH27380"
+    picture   = "DH27380"
     year      = 1956
     # Bomber Mass Production
     component = { id = 27381 name = TECH_CMP_AD_88_1_NAME type = training difficulty = 8 }
@@ -2107,7 +2107,7 @@ technology =
       command = { type = deactivate which = 27390 }
       command = { type = deactivate which = 27400 }
       command = { type = max_organization which = strategic_bomber value = 6 }
-      command = { type = morale which = strategic_bomber value = 10 }       
+      command = { type = morale which = strategic_bomber value = 10 }
     }
   }
   # Land Based ICBM Deterrence
@@ -2115,10 +2115,10 @@ technology =
   { id        = 27390
     name      = TECH_APP_AD_89_NAME
     position  = { x = 3 y = 306 }
-	picture   = "DH27390"
+    picture   = "DH27390"
     year      = 1956
     # Hardened Underground Silos
-    component = { id = 27391 name = TECH_CMP_AD_89_1_NAME type =  general_equipment difficulty = 8 }
+    component = { id = 27391 name = TECH_CMP_AD_89_1_NAME type = general_equipment difficulty = 8 }
     # Rocket Maintenance
     component = { id = 27392 name = TECH_CMP_AD_89_2_NAME type = training difficulty = 8 }
     # Nuclear Authorization Procedures
@@ -2142,7 +2142,7 @@ technology =
   { id        = 27400
     name      = TECH_APP_AD_90_NAME
     position  = { x = 112 y = 306 }
-	picture   = "DH27400"
+    picture   = "DH27400"
     year      = 1956
     # Missile Maintenance
     component = { id = 27401 name = TECH_CMP_AD_90_1_NAME type = training difficulty = 8 }
@@ -2169,7 +2169,7 @@ technology =
   { id        = 27410
     name      = TECH_APP_AD_91_NAME
     position  = { x = 111 y = 93 }
-	picture   = "DH27410"
+    picture   = "DH27410"
     year      = 1948
     # Early Cold War Ship Detection
     component = { id = 27411 name = TECH_CMP_AD_91_1_NAME type = bomber_tactics difficulty = 5 }
@@ -2192,7 +2192,7 @@ technology =
   { id        = 27420
     name      = TECH_APP_AD_92_NAME
     position  = { x = 111 y = 108 }
-	picture   = "DH27420"
+    picture   = "DH27420"
     year      = 1952
     # Anti Submarine Rocket Trials
     component = { id = 27421 name = TECH_CMP_AD_92_1_NAME type = training difficulty = 6 }
@@ -2214,7 +2214,7 @@ technology =
   { id        = 27430
     name      = TECH_APP_AD_93_NAME
     position  = { x = 111 y = 123 }
-	picture   = "DH27430"
+    picture   = "DH27430"
     year      = 1959
     # Improved Air to Surface Missiles
     component = { id = 27431 name = TECH_CMP_AD_93_1_NAME type = training difficulty = 7 }
@@ -2236,7 +2236,7 @@ technology =
   { id        = 27440
     name      = TECH_APP_AD_94_NAME
     position  = { x = 111 y = 138 }
-	picture   = "DH27440"
+    picture   = "DH27440"
     year      = 1954
     # Naval Intelligence
     component = { id = 27441 name = TECH_CMP_AD_94_1_NAME type = centralized_execution difficulty = 6 }
@@ -2258,7 +2258,7 @@ technology =
   { id        = 27450
     name      = TECH_APP_AD_95_NAME
     position  = { x = 111 y = 153 }
-	picture   = "DH27450"
+    picture   = "DH27450"
     year      = 1957
     # Tropical Cyclone Flight Research
     component = { id = 27451 name = TECH_CMP_AD_95_1_NAME type = piloting difficulty = 7 }
@@ -2278,11 +2278,11 @@ technology =
     }
   }
   # Interwar Fighter Doctrine
- application = 
+  application =
   { id        = 27460
     name      = TECH_APP_AD_103_NAME
     position  = { x = 239 y = 71 }
-	picture   = "DH27460"
+    picture   = "DH27460"
     year      = 1924
     # 
     component = { id = 27461 name = TECH_CMP_AD_103_1_NAME type = training difficulty = 25 }
@@ -2307,7 +2307,7 @@ technology =
     }
   }
   # Interwar Bomber Doctrine
-   application =
+  application =
   { id        = 27470
     name      = TECH_APP_AD_102_NAME
     position  = { x = 239 y = 86 }
@@ -2340,10 +2340,10 @@ technology =
       command = { type = task_efficiency which = logistical_strike value = 0.15 }
       command = { type = task_efficiency which = strategic_bombardment value = 0.3 }
       command = { type = task_efficiency which = port_strike value = 0.15 }
-      command = { type = task_efficiency which = installation_strike value = 0.15 }	      
+      command = { type = task_efficiency which = installation_strike value = 0.15 }
     }
   }
-# Air Superiority Doctrine
+  # Air Superiority Doctrine
   application =
   { id        = 9010
     name      = TECH_APP_AD_1_NAME
@@ -2373,12 +2373,12 @@ technology =
       command = { type = morale which = d_20 value = 2 }
     }
   }
-# Flying Circus Doctrine
+  # Flying Circus Doctrine
   application =
   { id        = 9020
     name      = TECH_APP_AD_2_NAME
     position  = { x = 240 y = 9 }
-	picture   = "9020"
+    picture   = "9020"
     year      = 1917
     # All-metal Airframes
     component = { id = 9021 name = TECH_CMP_AD_2_1_NAME type = aeronautics difficulty = 5 }
@@ -2395,16 +2395,16 @@ technology =
     { command = { type = morale which = interceptor value = 10 }
       command = { type = morale which = multi_role value = 10 }
       command = { type = morale which = d_20 value = 10 }
-	  command = { type = morale which = cas value = 10 }
-	  command = { type = task_efficiency which = air_superiority value = 0.15 }
-     }
+      command = { type = morale which = cas value = 10 }
+      command = { type = task_efficiency which = air_superiority value = 0.15 }
+    }
   }
-# Force Substitution Doctrine
+  # Force Substitution Doctrine
   application =
   { id        = 9030
     name      = TECH_APP_AD_3_NAME
     position  = { x = 125 y = 16 }
-	picture   = "9030"
+    picture   = "9030"
     year      = 1916
     # Tactical Unit - Flight
     component = { id = 9031 name = TECH_CMP_AD_3_1_NAME type = training difficulty = 5 }
@@ -2416,25 +2416,25 @@ technology =
     component = { id = 9034 name = TECH_CMP_AD_3_4_NAME type = piloting difficulty = 5 }
     # Fighter Unit Specialization
     component = { id = 9035 name = TECH_CMP_AD_3_5_NAME type = training difficulty = 5 }
-    required  = {  }
-	or_required  = { 27520 27530 27540 27570 }
+    required  = { }
+    or_required = { 27520 27530 27540 27570 }
     effects =
     { command = { type = morale which = interceptor value = 10 }
       command = { type = morale which = multi_role value = 10 }
       command = { type = morale which = d_20 value = 10 }
       command = { type = morale which = cag value = 10 }
       command = { type = morale which = cas value = 10 }
-	  command = { type = morale which = naval_bomber value = 10 }
-	  command = { type = morale which = strategic_bomber value = 10 }
-	  command = { type = morale which = tactical_bomber value = 10 }
+      command = { type = morale which = naval_bomber value = 10 }
+      command = { type = morale which = strategic_bomber value = 10 }
+      command = { type = morale which = tactical_bomber value = 10 }
     }
-  } 
-# Powered Flight Concept  
-  application = 
+  }
+  # Powered Flight Concept
+  application =
   { id        = 27480
     name      = TECH_APP_AD_104_NAME
     position  = { x = 24 y = 1 }
-	picture   = "DH27480"
+    picture   = "DH27480"
     year      = 1905
     # 
     component = { id = 27481 name = TECH_CMP_AD_104_1_NAME type = training difficulty = 5 }
@@ -2448,25 +2448,25 @@ technology =
     component = { id = 27485 name = TECH_CMP_AD_104_5_NAME type = training difficulty = 5 }
     required  = { }
     effects =
-    {       command = { type = army_detection which = us value = -55 }
-	        command = { type = task_efficiency which = convoy_air_raiding value = -0.25 }
-			command = { type = task_efficiency which = ground_attack value = -0.4 }
-			command = { type = task_efficiency which = interdiction value = -0.4 }
-			command = { type = task_efficiency which = naval_strike value = -0.25 }
-			command = { type = task_efficiency which = logistical_strike value = -0.25 }
-			command = { type = task_efficiency which = strategic_bombardment value = -0.4 }
-			command = { type = task_efficiency which = port_strike value = -0.25 }
-			command = { type = task_efficiency which = installation_strike value = -0.25 }
-			command = { type = task_efficiency which = runway_cratering value = -0.25 }
-			command = { type = task_efficiency which = air_superiority value = -0.4 }
-     }
-  } 
+    { command = { type = army_detection which = us value = -55 }
+      command = { type = task_efficiency which = convoy_air_raiding value = -0.45 }
+      command = { type = task_efficiency which = ground_attack value = -0.1 }
+      command = { type = task_efficiency which = interdiction value = -0.1 }
+      command = { type = task_efficiency which = naval_strike value = -0.45 }
+      command = { type = task_efficiency which = logistical_strike value = -0.25 }
+      command = { type = task_efficiency which = strategic_bombardment value = -0.4 }
+      command = { type = task_efficiency which = port_strike value = -0.45 }
+      command = { type = task_efficiency which = installation_strike value = -0.25 }
+      command = { type = task_efficiency which = runway_cratering value = -0.25 }
+      command = { type = task_efficiency which = air_superiority value = -0.4 }
+    }
+  }
   # Recon Plane Utilization
-  application = 
+  application =
   { id        = 27490
     name      = TECH_APP_AD_105_NAME
     position  = { x = 16 y = 16 }
-	picture   = "DH27490"
+    picture   = "DH27490"
     year      = 1912
     # 
     component = { id = 27491 name = TECH_CMP_AD_105_1_NAME type = training difficulty = 5 }
@@ -2482,13 +2482,13 @@ technology =
     effects =
     { command = { type = army_detection which = us value = 55 }
     }
-  } 
+  }
   # Basic Air Duel Doctrine
-  application = 
+  application =
   { id        = 27500
     name      = TECH_APP_AD_106_NAME
     position  = { x = 16 y = 31 }
-	picture   = "DH27500"
+    picture   = "DH27500"
     year      = 1913
     # 
     component = { id = 27501 name = TECH_CMP_AD_106_1_NAME type = individual_courage difficulty = 5 }
@@ -2504,18 +2504,18 @@ technology =
     effects =
     { command = { type = max_organization which = interceptor value = 10 }
       command = { type = morale which = interceptor value = 5 }
-	  command = { type = max_organization which = multi_role value = 5 }
+      command = { type = max_organization which = multi_role value = 5 }
       command = { type = morale which = multi_role value = 2 }
-	  command = { type = max_organization which = d_20 value = 10 }
+      command = { type = max_organization which = d_20 value = 10 }
       command = { type = morale which = d_20 value = 5 }
     }
-  } 
+  }
   # Bomb-dropping Doctrine
-  application = 
+  application =
   { id        = 27510
     name      = TECH_APP_AD_107_NAME
     position  = { x = 16 y = 46 }
-	picture   = "DH27510"
+    picture   = "DH27510"
     year      = 1913
     # 
     component = { id = 27511 name = TECH_CMP_AD_107_1_NAME type = individual_courage difficulty = 5 }
@@ -2531,17 +2531,17 @@ technology =
     effects =
     { command = { type = max_organization which = multi_role value = 2 }
       command = { type = morale which = multi_role value = 2 }
-	  command = { type = max_organization which = cas value = 5 }
+      command = { type = max_organization which = cas value = 5 }
       command = { type = morale which = cas value = 5 }
-	  command = { type = enable_task which = ground_attack }
+      command = { type = enable_task which = ground_attack }
     }
-  }   
-# Air-based Counter Air  
-  application = 
+  }
+  # Air-based Counter Air
+  application =
   { id        = 27520
     name      = TECH_APP_AD_108_NAME
     position  = { x = 125 y = 31 }
-	picture   = "DH27520"
+    picture   = "DH27520"
     year      = 1915
     # 
     component = { id = 27521 name = TECH_CMP_AD_108_1_NAME type = individual_courage difficulty = 5 }
@@ -2557,19 +2557,19 @@ technology =
     effects =
     { command = { type = max_organization which = interceptor value = 5 }
       command = { type = morale which = interceptor value = 5 }
-	  command = { type = max_organization which = multi_role value = 2 }
+      command = { type = max_organization which = multi_role value = 2 }
       command = { type = morale which = multi_role value = 2 }
-	  command = { type = max_organization which = d_20 value = 5 }
+      command = { type = max_organization which = d_20 value = 5 }
       command = { type = morale which = d_20 value = 5 }
-	  command = { type = task_efficiency which = air_superiority value = 0.15 }
+      command = { type = task_efficiency which = air_superiority value = 0.15 }
     }
-  } 
+  }
   # Close Air Support Concept
-  application = 
+  application =
   { id        = 27530
     name      = TECH_APP_AD_109_NAME
     position  = { x = 125 y = 46 }
-	picture   = "DH27530"
+    picture   = "DH27530"
     year      = 1916
     # 
     component = { id = 27531 name = TECH_CMP_AD_109_1_NAME type = fighter_tactics difficulty = 5 }
@@ -2585,18 +2585,18 @@ technology =
     effects =
     { command = { type = max_organization which = cas value = 5 }
       command = { type = morale which = cas value = 5 }
-	  command = { type = max_organization which = multi_role value = 2 }
+      command = { type = max_organization which = multi_role value = 2 }
       command = { type = morale which = multi_role value = 2 }
-	  command = { type = enable_task which = interdiction }
+      command = { type = enable_task which = interdiction }
       command = { type = task_efficiency which = ground_attack value = 0.05 }
     }
-  }  
-# Tactical Bomber Concept 
-  application = 
+  }
+  # Tactical Bomber Concept
+  application =
   { id        = 27540
     name      = TECH_APP_AD_110_NAME
     position  = { x = 240 y = 24 }
-	picture   = "DH27540"
+    picture   = "DH27540"
     year      = 1916
     # 
     component = { id = 27541 name = TECH_CMP_AD_110_1_NAME type = bomber_tactics difficulty = 5 }
@@ -2611,19 +2611,19 @@ technology =
     required  = { 27510 }
     effects =
     { command = { type = max_organization which = tactical_bomber value = 5 }
-	  command = { type = enable_task which = logistical_strike }
+      command = { type = enable_task which = logistical_strike }
       command = { type = enable_task which = installation_strike }
       command = { type = enable_task which = runway_cratering }
-	  command = { type = task_efficiency which = ground_attack value = 0.1 }
-	  command = { type = task_efficiency which = interdiction value = 0.1 }
+      command = { type = task_efficiency which = ground_attack value = 0.1 }
+      command = { type = task_efficiency which = interdiction value = 0.1 }
     }
-  }  
-# Strategic Bombing Concept 
-  application = 
+  }
+  # Strategic Bombing Concept
+  application =
   { id        = 27550
     name      = TECH_APP_AD_111_NAME
     position  = { x = 240 y = 54 }
-	picture   = "DH27550"
+    picture   = "DH27550"
     year      = 1917
     # 
     component = { id = 27551 name = TECH_CMP_AD_111_1_NAME type = piloting difficulty = 5 }
@@ -2638,16 +2638,16 @@ technology =
     required  = { 27540 }
     effects =
     { command = { type = enable_task which = strategic_bombardment }
-	  command = { type = max_organization which = strategic_bomber value = 5 }
+      command = { type = max_organization which = strategic_bomber value = 5 }
       command = { type = morale which = strategic_bomber value = 2 }
     }
-  }  
-# Formal Air Doctrines
-  application = 
+  }
+  # Formal Air Doctrines
+  application =
   { id        = 27560
     name      = TECH_APP_AD_112_NAME
     position  = { x = 240 y = 39 }
-	picture   = "DH27560"
+    picture   = "DH27560"
     year      = 1918
     # 
     component = { id = 27561 name = TECH_CMP_AD_112_1_NAME type = management difficulty = 5 }
@@ -2661,38 +2661,38 @@ technology =
     component = { id = 27565 name = TECH_CMP_AD_112_5_NAME type = centralized_execution difficulty = 5 }
     required  = { 9020 }
     effects =
-    {     command = { type = max_organization which = interceptor value = 5 }
-          command = { type = morale which = interceptor value = 2 }
-	  command = { type = max_organization which = strategic_bomber value = 5 }
-          command = { type = morale which = strategic_bomber value = 2 }  
-	  command = { type = max_organization which = cas value = 5 }
-          command = { type = morale which = cas value = 2 }
-	  command = { type = max_organization which = multi_role value = 5 }
-          command = { type = morale which = multi_role value = 2 }
-	  command = { type = max_organization which = tactical_bomber value = 5 }
-	  command = { type = morale which = tactical_bomber value = 2 }
-	  command = { type = max_organization which = naval_bomber value = 5 }
-	  command = { type = morale which = naval_bomber value = 2 }
-	  command = { type = task_efficiency which = convoy_air_raiding value = 0.1 }
-	  command = { type = task_efficiency which = ground_attack value = 0.1 }
-	  command = { type = task_efficiency which = interdiction value = 0.1 }
-	  command = { type = task_efficiency which = naval_strike value = 0.1 }
-	  command = { type = task_efficiency which = logistical_strike value = 0.1 }
-	  command = { type = task_efficiency which = strategic_bombardment value = 0.1 }
-	  command = { type = task_efficiency which = port_strike value = 0.1 }
-	  command = { type = task_efficiency which = installation_strike value = 0.1 }
-	  command = { type = task_efficiency which = runway_cratering value = 0.1 }
-	  command = { type = task_efficiency which = air_superiority value = 0.1 }
-	  command = { type = max_organization which = d_20 value = 5 }
-          command = { type = morale which = d_20 value = 2 }
+    { command = { type = max_organization which = interceptor value = 5 }
+      command = { type = morale which = interceptor value = 2 }
+      command = { type = max_organization which = strategic_bomber value = 5 }
+      command = { type = morale which = strategic_bomber value = 2 }
+      command = { type = max_organization which = cas value = 5 }
+      command = { type = morale which = cas value = 2 }
+      command = { type = max_organization which = multi_role value = 5 }
+      command = { type = morale which = multi_role value = 2 }
+      command = { type = max_organization which = tactical_bomber value = 5 }
+      command = { type = morale which = tactical_bomber value = 2 }
+      command = { type = max_organization which = naval_bomber value = 5 }
+      command = { type = morale which = naval_bomber value = 2 }
+      command = { type = task_efficiency which = convoy_air_raiding value = 0.1 }
+      command = { type = task_efficiency which = ground_attack value = 0.1 }
+      command = { type = task_efficiency which = interdiction value = 0.1 }
+      command = { type = task_efficiency which = naval_strike value = 0.1 }
+      command = { type = task_efficiency which = logistical_strike value = 0.1 }
+      command = { type = task_efficiency which = strategic_bombardment value = 0.1 }
+      command = { type = task_efficiency which = port_strike value = 0.1 }
+      command = { type = task_efficiency which = installation_strike value = 0.1 }
+      command = { type = task_efficiency which = runway_cratering value = 0.1 }
+      command = { type = task_efficiency which = air_superiority value = 0.1 }
+      command = { type = max_organization which = d_20 value = 5 }
+      command = { type = morale which = d_20 value = 2 }
     }
-  }  
-# Naval Aerial Support Concept  
-  application = 
+  }
+  # Naval Aerial Support Concept
+  application =
   { id        = 27570
     name      = TECH_APP_AD_113_NAME
     position  = { x = 16 y = 61 }
-	picture   = "DH27570"
+    picture   = "DH27570"
     year      = 1914
     # 
     component = { id = 27571 name = TECH_CMP_AD_113_1_NAME type = individual_courage difficulty = 5 }
@@ -2708,15 +2708,15 @@ technology =
     effects =
     { command = { type = max_organization which = naval_bomber value = 3 }
       command = { type = morale which = naval_bomber value = 2 }
-	  command = { type = enable_task which = port_strike }     
+      command = { type = enable_task which = port_strike }
     }
   }
-# Aerial ASW  
-  application = 
+  # Aerial ASW
+  application =
   { id        = 27580
     name      = TECH_APP_AD_114_NAME
     position  = { x = 16 y = 76 }
-	picture   = "DH27580"
+    picture   = "DH27580"
     year      = 1917
     # 
     component = { id = 27581 name = TECH_CMP_AD_114_1_NAME type = piloting difficulty = 5 }
@@ -2731,15 +2731,15 @@ technology =
     required  = { 27570 }
     effects =
     { command = { type = max_organization which = naval_bomber value = 3 }
-      command = { type = morale which = naval_bomber value = 2 }   
+      command = { type = morale which = naval_bomber value = 2 }
     }
   }
-# Aerial Convoy Escort
-  application = 
+  # Aerial Convoy Escort
+  application =
   { id        = 27590
     name      = TECH_APP_AD_115_NAME
     position  = { x = 125 y = 61 }
-	picture   = "DH27590"
+    picture   = "DH27590"
     year      = 1916
     # 
     component = { id = 27591 name = TECH_CMP_AD_115_1_NAME type = piloting difficulty = 5 }
@@ -2754,15 +2754,15 @@ technology =
     required  = { 27570 }
     effects =
     { command = { type = max_organization which = naval_bomber value = 3 }
-      command = { type = morale which = naval_bomber value = 2 }    
+      command = { type = morale which = naval_bomber value = 2 }
     }
-  }  
-# Maritime Attack Concept 
-  application = 
+  }
+  # Maritime Attack Concept
+  application =
   { id        = 27600
     name      = TECH_APP_AD_116_NAME
     position  = { x = 125 y = 76 }
-	picture   = "DH27600"
+    picture   = "DH27600"
     year      = 1918
     # 
     component = { id = 27601 name = TECH_CMP_AD_116_1_NAME type = training difficulty = 5 }
@@ -2774,15 +2774,15 @@ technology =
     component = { id = 27604 name = TECH_CMP_AD_116_4_NAME type = bomber_tactics difficulty = 5 }
     # 
     component = { id = 27605 name = TECH_CMP_AD_116_5_NAME type = individual_courage difficulty = 5 }
-    required  = {  }
-	or_required  = { 27590 27580 }
+    required  = { }
+    or_required = { 27590 27580 }
     effects =
     { command = { type = max_organization which = naval_bomber value = 5 }
       command = { type = morale which = naval_bomber value = 2 }
-	  command = { type = enable_task which = naval_strike }
+      command = { type = enable_task which = naval_strike }
       command = { type = enable_task which = convoy_air_raiding }
     }
-  }   
+  }
   # Mid-Cold War Era Air Combat
   application =
   { id        = 2830
