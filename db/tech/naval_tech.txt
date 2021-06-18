@@ -3254,10 +3254,7 @@ technology =
       command = { type = new_model which = b_08 value = 0 }
     }
   }
-  label =
-  { tag      = TECH_CAT_NAVAL_1
-    position = { x = 244 y = 199 }
-  }
+ 
   # Interbellum Engine Design
   application =
   { id        = 2730
