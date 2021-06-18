@@ -27,8 +27,9 @@ event = {
 	deathdate = { day = 29 month = december year = 1999 }
 	
 	trigger = { 
-	ai = no
-
+	
+		ai = no
+		
 	}
 
 	name = "Difficulty Settings for Axis Powers" #12101NAME
